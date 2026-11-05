@@ -1,0 +1,203 @@
+{
+  "what": "BAFU water emissions to river, lake and groundwater: which EF 3.1 factor they take, and what the groundwater rule changes on BAFU:2026",
+  "upstream_rules": {
+    "file": "src/brightway_flows/data/context-carry-rules.json",
+    "revision": "d151dbba753679d221dcfb712857145c471e6ad4",
+    "sha256": "fbeea35ec0580ff8a97c2dee4dbfc07611ce18541c522ee41cef7b39d0125040",
+    "river": {
+      "donors": [
+        "Environmental → Water → Surface water",
+        "Environmental → Water → Unknown"
+      ]
+    },
+    "lake": {
+      "donors": [
+        "Environmental → Water → Surface water",
+        "Environmental → Water → Unknown"
+      ]
+    },
+    "unconfined_aquifer": "no downward rule: the file's description lists the unconfined aquifer among the contexts deliberately left blank"
+  },
+  "our_application": {
+    "river and lake": "the upstream rule unchanged: EF 3.1 fresh water, failing that unspecified water",
+    "groundwater": "EF 3.1 'Emissions to water, unspecified' of the same substance; the short-term counterpart of the long-term rule (#41), which already sends groundwater, long-term to unspecified water (long-term)",
+    "decided": "ruling of 5 November 2026"
+  },
+  "exchanges_in_scope": {
+    "river": 18218,
+    "lake": 1969,
+    "groundwater": 5165,
+    "flows": 102,
+    "counted": "BAFU:2026 elementary exchanges to river, lake or groundwater on flows that have an EF 3.1 identity in the five categories below"
+  },
+  "effect_on_bafu_2026": {
+    "measure": "Score of each of the 12,074 BAFU:2026 processes per reference unit, supply-weighted within BAFU:2026, against the factors in use before; each reading changes only the river, lake and groundwater exchanges. 'Median' is over the processes whose score moves.",
+    "readings": [
+      {
+        "category": "Eutrophication, freshwater",
+        "reading": "no factor on river, lake or groundwater",
+        "processes_with_a_score": 11895,
+        "processes_moving_more_than_10_percent": 11303,
+        "median_change_percent": -19.53,
+        "examples_change_percent": {
+          "Wheat grains IP, at farm (CH)": -42.0,
+          "Potatoes IP, at farm (CH)": -68.8
+        }
+      },
+      {
+        "category": "Eutrophication, freshwater",
+        "reading": "upstream rules only: river and lake from fresh water, groundwater blank",
+        "processes_with_a_score": 11895,
+        "processes_moving_more_than_10_percent": 11041,
+        "median_change_percent": -17.61,
+        "examples_change_percent": {
+          "Wheat grains IP, at farm (CH)": -9.2,
+          "Potatoes IP, at farm (CH)": -15.9
+        }
+      },
+      {
+        "category": "Eutrophication, freshwater",
+        "reading": "as applied: river and lake from fresh water, groundwater from water, unspecified",
+        "processes_with_a_score": 11895,
+        "processes_moving_more_than_10_percent": 0,
+        "median_change_percent": 0.02,
+        "examples_change_percent": {
+          "Wheat grains IP, at farm (CH)": 0.1,
+          "Potatoes IP, at farm (CH)": 0.1
+        }
+      },
+      {
+        "category": "Eutrophication, marine",
+        "reading": "no factor on river, lake or groundwater",
+        "processes_with_a_score": 11893,
+        "processes_moving_more_than_10_percent": 1736,
+        "median_change_percent": -2.46,
+        "examples_change_percent": {
+          "Wheat grains IP, at farm (CH)": -94.3,
+          "Potatoes IP, at farm (CH)": -93.5
+        }
+      },
+      {
+        "category": "Eutrophication, marine",
+        "reading": "upstream rules only: river and lake from fresh water, groundwater blank",
+        "processes_with_a_score": 11893,
+        "processes_moving_more_than_10_percent": 1993,
+        "median_change_percent": 0.19,
+        "examples_change_percent": {
+          "Wheat grains IP, at farm (CH)": -94.1,
+          "Potatoes IP, at farm (CH)": -93.3
+        }
+      },
+      {
+        "category": "Eutrophication, marine",
+        "reading": "as applied: river and lake from fresh water, groundwater from water, unspecified",
+        "processes_with_a_score": 11893,
+        "processes_moving_more_than_10_percent": 1692,
+        "median_change_percent": 1.51,
+        "examples_change_percent": {
+          "Wheat grains IP, at farm (CH)": 0.2,
+          "Potatoes IP, at farm (CH)": 0.2
+        }
+      },
+      {
+        "category": "Human toxicity, cancer",
+        "reading": "no factor on river, lake or groundwater",
+        "processes_with_a_score": 11909,
+        "processes_moving_more_than_10_percent": 1048,
+        "median_change_percent": -2.59,
+        "examples_change_percent": {
+          "Wheat grains IP, at farm (CH)": -32.4,
+          "Potatoes IP, at farm (CH)": -32.0
+        }
+      },
+      {
+        "category": "Human toxicity, cancer",
+        "reading": "upstream rules only: river and lake from fresh water, groundwater blank",
+        "processes_with_a_score": 11909,
+        "processes_moving_more_than_10_percent": 4434,
+        "median_change_percent": 7.5,
+        "examples_change_percent": {
+          "Wheat grains IP, at farm (CH)": -23.4,
+          "Potatoes IP, at farm (CH)": -26.5
+        }
+      },
+      {
+        "category": "Human toxicity, cancer",
+        "reading": "as applied: river and lake from fresh water, groundwater from water, unspecified",
+        "processes_with_a_score": 11909,
+        "processes_moving_more_than_10_percent": 4845,
+        "median_change_percent": 8.69,
+        "examples_change_percent": {
+          "Wheat grains IP, at farm (CH)": -9.6,
+          "Potatoes IP, at farm (CH)": -11.3
+        }
+      },
+      {
+        "category": "Human toxicity, non-cancer",
+        "reading": "no factor on river, lake or groundwater",
+        "processes_with_a_score": 11910,
+        "processes_moving_more_than_10_percent": 1560,
+        "median_change_percent": -3.61,
+        "examples_change_percent": {
+          "Wheat grains IP, at farm (CH)": -0.6,
+          "Potatoes IP, at farm (CH)": -0.1
+        }
+      },
+      {
+        "category": "Human toxicity, non-cancer",
+        "reading": "upstream rules only: river and lake from fresh water, groundwater blank",
+        "processes_with_a_score": 11910,
+        "processes_moving_more_than_10_percent": 5202,
+        "median_change_percent": 8.28,
+        "examples_change_percent": {
+          "Wheat grains IP, at farm (CH)": 1.6,
+          "Potatoes IP, at farm (CH)": 0.3
+        }
+      },
+      {
+        "category": "Human toxicity, non-cancer",
+        "reading": "as applied: river and lake from fresh water, groundwater from water, unspecified",
+        "processes_with_a_score": 11910,
+        "processes_moving_more_than_10_percent": 5909,
+        "median_change_percent": 9.94,
+        "examples_change_percent": {
+          "Wheat grains IP, at farm (CH)": 1.8,
+          "Potatoes IP, at farm (CH)": 0.3
+        }
+      },
+      {
+        "category": "Ecotoxicity, freshwater",
+        "reading": "no factor on river, lake or groundwater",
+        "processes_with_a_score": 11910,
+        "processes_moving_more_than_10_percent": 11001,
+        "median_change_percent": -37.54,
+        "examples_change_percent": {
+          "Wheat grains IP, at farm (CH)": -26.5,
+          "Potatoes IP, at farm (CH)": -21.8
+        }
+      },
+      {
+        "category": "Ecotoxicity, freshwater",
+        "reading": "upstream rules only: river and lake from fresh water, groundwater blank",
+        "processes_with_a_score": 11910,
+        "processes_moving_more_than_10_percent": 6278,
+        "median_change_percent": 9.46,
+        "examples_change_percent": {
+          "Wheat grains IP, at farm (CH)": 4.5,
+          "Potatoes IP, at farm (CH)": 3.1
+        }
+      },
+      {
+        "category": "Ecotoxicity, freshwater",
+        "reading": "as applied: river and lake from fresh water, groundwater from water, unspecified",
+        "processes_with_a_score": 11910,
+        "processes_moving_more_than_10_percent": 9624,
+        "median_change_percent": 16.64,
+        "examples_change_percent": {
+          "Wheat grains IP, at farm (CH)": 5.3,
+          "Potatoes IP, at farm (CH)": 3.8
+        }
+      }
+    ]
+  }
+}

@@ -1364,6 +1364,47 @@
       ],
       "next_action": "Nothing new to raise: 22 rows are the #159 gap, 3 are our proxies, 10 are tracked or deliberate upstream.",
       "disposition": "Nothing new to raise: 22 rows are the #159 gap, 3 are our proxies, 10 are tracked or deliberate upstream."
+    },
+    {
+      "origin": "processing",
+      "stage": "recorded",
+      "sources": [
+        "BAFU",
+        "EF 3.1"
+      ],
+      "revision": "d151dbba753679d221dcfb712857145c471e6ad4",
+      "updated_at": "2026-11-05T05:38:00+01:00",
+      "reported_by": "mklarmann",
+      "reported_at": "2026-11-05T05:38:00+01:00",
+      "owner": null,
+      "collection": "Contributed consensus findings",
+      "proposals": [],
+      "related_cases": [],
+      "id": "groundwater-takes-water-unspecified",
+      "tags": [
+        "Water",
+        "Context",
+        "BAFU"
+      ],
+      "title": "BAFU groundwater emissions take EF 3.1's unspecified-water factor in our use",
+      "summary": "EF 3.1 has no factor for BAFU's `groundwater` sub-compartment, and the context carry rules deliberately leave the unconfined aquifer blank. River and lake take EF fresh water by the upstream rule; for groundwater we apply EF `Emissions to water, unspecified` of the same substance.",
+      "reason": "Left blank, a short-term groundwater emission counts nothing while the same emission to long-term groundwater takes EF's long-term unspecified-water factor (#41): phosphate gets 0.33 long-term and 0 short-term. On BAFU:2026, applying only the upstream river and lake rules drops freshwater eutrophication by a median of 17.6 % (11,041 processes move by more than 10 %, wheat IP CH -9.2 %, potatoes IP CH -15.9 %); with groundwater on unspecified water no process moves by 10 % or more, because EF's fresh-water and unspecified-water values for phosphate and phosphorus are equal. 5,165 groundwater exchanges are in scope, beside 18,218 river and 1,969 lake.",
+      "evidence": [
+        {
+          "label": "Context carry rules for river and lake; the aquifer left blank",
+          "url": "https://github.com/brightway-labs/brightway-flows/blob/d151dbba753679d221dcfb712857145c471e6ad4/src/brightway_flows/data/context-carry-rules.json",
+          "kind": "Upstream documentation",
+          "note": "Downward rules for River and Lake; the description lists the unconfined aquifer among the deliberate blanks."
+        },
+        {
+          "label": "Exchanges in scope and effect on BAFU:2026",
+          "url": "/curation/evidence/groundwater-water-unspecified",
+          "kind": "Evidence snapshot",
+          "note": "Counts and supply-weighted shares only; no dataset amounts."
+        }
+      ],
+      "next_action": "Keep the application policy named and disclosed. Whether the aquifer should carry unspecified water's number for every method is the carry rules' question; it is not proposed upstream.",
+      "disposition": "Our use: groundwater takes EF 3.1 'water, unspecified', a disclosed application policy (ruling of 5 November 2026). Upstream: not proposed."
     }
   ],
   "documents": [
@@ -1478,6 +1519,14 @@
       "sha256": "0f82de044ed353464094edaf02780cd806f5594799d604b5fa7053ba0d147018",
       "generation": "Our adoption comparison of run 20260904, re-measured on 1.1.0",
       "origin_url": "https://zenodo.org/records/23554066"
+    },
+    {
+      "id": "groundwater-water-unspecified",
+      "title": "BAFU water emissions to river, lake and groundwater: which EF 3.1 factor they take, and what the groundwater rule changes on BAFU:2026",
+      "filename": "groundwater-water-unspecified.json",
+      "sha256": "283c0ae4833bee2b5e87f098d838810e1ba4d72d00e5675f3adbd579b3bd488f",
+      "generation": "Read from the context carry rules at d151dbba and from the BAFU:2026 ecoSpold v1 files (counts and supply-weighted shares only)",
+      "origin_url": "https://github.com/brightway-labs/brightway-flows/blob/d151dbba753679d221dcfb712857145c471e6ad4/src/brightway_flows/data/context-carry-rules.json"
     }
   ]
 }
