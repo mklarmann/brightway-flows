@@ -1,0 +1,41 @@
+{
+ "what": "BAFU Zoxamide: our EF 3.1 match against the consensus",
+ "measured_on": {
+  "release": "brightway-flows 1.1.0",
+  "revision": "d151dbba753679d221dcfb712857145c471e6ad4",
+  "zenodo": "https://zenodo.org/records/23554066"
+ },
+ "upstream_checked_at": {
+  "revision": "5f06833363159f76955fdeb2aed895bff2dd4615",
+  "date": "2026-11-05"
+ },
+ "rows": [
+  {
+   "bafu_name": "Zoxamide",
+   "bafu_context": "emissions to soil / agricultural",
+   "ours": {
+    "id": "67f600f6-a63d-4138-ba9f-3d931140e062",
+    "label": "Fungicides, unspecified",
+    "context": "Emissions to soil / Emissions to agricultural soil",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "df5ff2ef2dc1a23708774229912ac5e955b5d176",
+    "label": "Zoxamide",
+    "context": "envi-grou-agri",
+    "source": "ecoinvent algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "df5ff2ef2dc1a23708774229912ac5e955b5d176",
+     "label": "Zoxamide",
+     "source": "ecoinvent algorithm addition",
+     "context": "envi-grou-agri",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "ours: our proxy is too far (ours to fix)"
+  }
+ ]
+}

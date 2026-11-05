@@ -1,0 +1,539 @@
+{
+ "what": "Consensus contribution candidates, class CONTEXT_ONLY",
+ "measured_on": {
+  "release": "brightway-flows 1.1.0",
+  "revision": "d151dbba753679d221dcfb712857145c471e6ad4",
+  "zenodo": "https://zenodo.org/records/23554066"
+ },
+ "upstream_checked_at": {
+  "revision": "5f06833363159f76955fdeb2aed895bff2dd4615",
+  "date": "2026-11-05"
+ },
+ "class": "CONTEXT_ONLY",
+ "definition": "same substance (EF names equal after normalisation), different EF sub-compartment",
+ "rows": [
+  {
+   "bafu_name": "Titanium",
+   "bafu_context": "emissions to water / groundwater, long-term",
+   "ours": {
+    "id": "08a91e70-3ddc-11dd-999c-0050c2490048",
+    "label": "titanium",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "08a91e70-3ddc-11dd-999b-0050c2490048",
+    "label": "titanium",
+    "context": "Emissions to water / Emissions to water, unspecified (long-term)",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "08a91e70-3ddc-11dd-999b-0050c2490048",
+     "label": "Titanium",
+     "source": "EF 3.1",
+     "context": "envi-wate-lote",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ]
+  },
+  {
+   "bafu_name": "Tin",
+   "bafu_context": "emissions to water / groundwater, long-term",
+   "ours": {
+    "id": "08a91e70-3ddc-11dd-9991-0050c2490048",
+    "label": "tin",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "08a91e70-3ddc-11dd-9990-0050c2490048",
+    "label": "tin",
+    "context": "Emissions to water / Emissions to water, unspecified (long-term)",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "08a91e70-3ddc-11dd-9990-0050c2490048",
+     "label": "Tin",
+     "source": "EF 3.1",
+     "context": "envi-wate-lote",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ]
+  },
+  {
+   "bafu_name": "Chloride",
+   "bafu_context": "emissions to water / groundwater, long-term",
+   "ours": {
+    "id": "08a91e70-3ddc-11dd-950a-0050c2490048",
+    "label": "chloride",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "08a91e70-3ddc-11dd-9509-0050c2490048",
+    "label": "chloride",
+    "context": "Emissions to water / Emissions to water, unspecified (long-term)",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "08a91e70-3ddc-11dd-9509-0050c2490048",
+     "label": "Chloride(1-)",
+     "source": "EF 3.1",
+     "context": "envi-wate-lote",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ]
+  },
+  {
+   "bafu_name": "Magnesium",
+   "bafu_context": "resources / in water",
+   "ours": {
+    "id": "fe0acd60-3ddc-11dd-aac3-0050c2490048",
+    "label": "magnesium",
+    "context": "Resources from ground / Non-renewable element resources from ground",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "fe0acd60-3ddc-11dd-aac4-0050c2490048",
+    "label": "magnesium",
+    "context": "Resources from water / Non-renewable element resources from water",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "fe0acd60-3ddc-11dd-aac4-0050c2490048",
+     "label": "Magnesium",
+     "source": "EF 3.1",
+     "context": "reso-wate",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ]
+  },
+  {
+   "bafu_name": "Cadmium",
+   "bafu_context": "emissions to water / groundwater, long-term",
+   "ours": {
+    "id": "fe0acd60-3ddc-11dd-a292-0050c2490048",
+    "label": "cadmium",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "fe0acd60-3ddc-11dd-a291-0050c2490048",
+    "label": "cadmium",
+    "context": "Emissions to water / Emissions to water, unspecified (long-term)",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "fe0acd60-3ddc-11dd-a291-0050c2490048",
+     "label": "Cadmium",
+     "source": "EF 3.1",
+     "context": "envi-wate-lote",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ]
+  },
+  {
+   "bafu_name": "Ethene, Chloro-",
+   "bafu_context": "emissions to water / river, long-term",
+   "ours": {
+    "id": "fe0acd60-3ddc-11dd-a498-0050c2490048",
+    "label": "vinyl chloride",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "fe0acd60-3ddc-11dd-a497-0050c2490048",
+    "label": "vinyl chloride",
+    "context": "Emissions to water / Emissions to water, unspecified (long-term)",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "fe0acd60-3ddc-11dd-a497-0050c2490048",
+     "label": "Vinyl Chloride",
+     "source": "EF 3.1",
+     "context": "envi-wate-lote",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ]
+  },
+  {
+   "bafu_name": "Chlorosilane, Trimethyl-",
+   "bafu_context": "emissions to air / low. pop., long-term",
+   "ours": {
+    "id": "d569e915-a72b-4ddb-93a7-7843324ed4d4",
+    "label": "chlorosilane, trimethyl-",
+    "context": "Emissions to air / Emissions to air, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "7ba77124-a0e2-4c8d-9f77-cc8d83c5916e",
+    "label": "Chlorosilane, trimethyl-",
+    "context": "Emissions to air / Emissions to air, unspecified (long-term)",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "7ba77124-a0e2-4c8d-9f77-cc8d83c5916e",
+     "label": "Chlorotrimethylsilane",
+     "source": "EF 3.1",
+     "context": "envi-air-lote",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ]
+  },
+  {
+   "bafu_name": "Silver",
+   "bafu_context": "emissions to water / groundwater, long-term",
+   "ours": {
+    "id": "fe0acd60-3ddc-11dd-abfc-0050c2490048",
+    "label": "silver",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "fe0acd60-3ddc-11dd-abfb-0050c2490048",
+    "label": "silver",
+    "context": "Emissions to water / Emissions to water, unspecified (long-term)",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "fe0acd60-3ddc-11dd-abfb-0050c2490048",
+     "label": "Silver",
+     "source": "EF 3.1",
+     "context": "envi-wate-lote",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ]
+  },
+  {
+   "bafu_name": "Arsenic",
+   "bafu_context": "emissions to water / groundwater, long-term",
+   "ours": {
+    "id": "08a91e70-3ddc-11dd-91e1-0050c2490048",
+    "label": "arsenic",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "08a91e70-3ddc-11dd-91e0-0050c2490048",
+    "label": "arsenic",
+    "context": "Emissions to water / Emissions to water, unspecified (long-term)",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "08a91e70-3ddc-11dd-91e0-0050c2490048",
+     "label": "Arsenic",
+     "source": "EF 3.1",
+     "context": "envi-wate-lote",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ]
+  },
+  {
+   "bafu_name": "Silver-110",
+   "bafu_context": "emissions to air / low. pop.",
+   "ours": {
+    "id": "08a91e70-3ddc-11dd-98e0-0050c2490048",
+    "label": "silver-110",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "08a91e70-3ddc-11dd-98dd-0050c2490048",
+    "label": "silver-110",
+    "context": "Emissions to air / Emissions to non-urban air or from high stacks",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "08a91e70-3ddc-11dd-98dd-0050c2490048",
+     "label": "Silver-110m",
+     "source": "EF 3.1",
+     "context": "envi-air-mest15me-ru10pesq",
+     "conversion_multiplier": 0.001,
+     "conversion_basis": "unit-table"
+    },
+    {
+     "id": "08a91e70-3ddc-11dd-98dd-0050c2490048",
+     "label": "Silver-110m",
+     "source": "EF 3.1",
+     "context": "envi-air-mest15me-ru10pesq",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ]
+  },
+  {
+   "bafu_name": "Zinc",
+   "bafu_context": "emissions to water / groundwater, long-term",
+   "ours": {
+    "id": "08a91e70-3ddc-11dd-94e9-0050c2490048",
+    "label": "zinc",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "08a91e70-3ddc-11dd-94e8-0050c2490048",
+    "label": "zinc",
+    "context": "Emissions to water / Emissions to water, unspecified (long-term)",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "08a91e70-3ddc-11dd-94e8-0050c2490048",
+     "label": "Zinc",
+     "source": "EF 3.1",
+     "context": "envi-wate-lote",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ]
+  },
+  {
+   "bafu_name": "Bromine",
+   "bafu_context": "resources / in water",
+   "ours": {
+    "id": "4d9a8790-3ddd-11dd-8de8-0050c2490048",
+    "label": "bromine",
+    "context": "Resources from ground / Non-renewable element resources from ground",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "4d9a8790-3ddd-11dd-8de9-0050c2490048",
+    "label": "bromine",
+    "context": "Resources from water / Non-renewable element resources from water",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "4d9a8790-3ddd-11dd-8de9-0050c2490048",
+     "label": "Bromine",
+     "source": "EF 3.1",
+     "context": "reso-wate",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ]
+  },
+  {
+   "bafu_name": "Dioxin, 2,3,7,8 Tetrachlorodibenzo-p-",
+   "bafu_context": "emissions to water / river, long-term",
+   "ours": {
+    "id": "08a91e70-3ddc-11dd-92f7-0050c2490048",
+    "label": "2,3,7,8-tetrachlorodibenzo-p-dioxin",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "08a91e70-3ddc-11dd-92f6-0050c2490048",
+    "label": "2,3,7,8-tetrachlorodibenzo-p-dioxin",
+    "context": "Emissions to water / Emissions to water, unspecified (long-term)",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "08a91e70-3ddc-11dd-92f6-0050c2490048",
+     "label": "2,3,7,8-tetrachlorodibenzo-p-dioxin",
+     "source": "EF 3.1",
+     "context": "envi-wate-lote",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ]
+  },
+  {
+   "bafu_name": "Chloride",
+   "bafu_context": "emissions to water / river, long-term",
+   "ours": {
+    "id": "08a91e70-3ddc-11dd-950a-0050c2490048",
+    "label": "chloride",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "08a91e70-3ddc-11dd-9509-0050c2490048",
+    "label": "chloride",
+    "context": "Emissions to water / Emissions to water, unspecified (long-term)",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "08a91e70-3ddc-11dd-9509-0050c2490048",
+     "label": "Chloride(1-)",
+     "source": "EF 3.1",
+     "context": "envi-wate-lote",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ]
+  },
+  {
+   "bafu_name": "Silver",
+   "bafu_context": "emissions to water / river, long-term",
+   "ours": {
+    "id": "fe0acd60-3ddc-11dd-abfc-0050c2490048",
+    "label": "silver",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "fe0acd60-3ddc-11dd-abfb-0050c2490048",
+    "label": "silver",
+    "context": "Emissions to water / Emissions to water, unspecified (long-term)",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "fe0acd60-3ddc-11dd-abfb-0050c2490048",
+     "label": "Silver",
+     "source": "EF 3.1",
+     "context": "envi-wate-lote",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ]
+  },
+  {
+   "bafu_name": "Vanadium",
+   "bafu_context": "emissions to water / groundwater, long-term",
+   "ours": {
+    "id": "4d9a8790-3ddd-11dd-8dc0-0050c2490048",
+    "label": "vanadium",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "4d9a8790-3ddd-11dd-8dbf-0050c2490048",
+    "label": "vanadium",
+    "context": "Emissions to water / Emissions to water, unspecified (long-term)",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "4d9a8790-3ddd-11dd-8dbf-0050c2490048",
+     "label": "Vanadium",
+     "source": "EF 3.1",
+     "context": "envi-wate-lote",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ]
+  },
+  {
+   "bafu_name": "Water",
+   "bafu_context": "emissions to air / low. pop.",
+   "ours": {
+    "id": "a3876d9b-a3e8-4680-861a-4e08642f1392",
+    "label": "Water",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "896d1d1e-2b87-4a83-b209-11a2ea997b49",
+    "label": "Water",
+    "context": "Emissions to air / Emissions to non-urban air or from high stacks",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "fe0acd60-3ddc-11dd-ac07-0050c2490048",
+     "label": "Water vapour",
+     "source": "EF 3.1",
+     "context": "envi-air-mest15me-ru10pesq",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    },
+    {
+     "id": "fe0acd60-3ddc-11dd-ac07-0050c2490048",
+     "label": "Water vapour",
+     "source": "EF 3.1",
+     "context": "envi-air-mest15me-ru10pesq",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    },
+    {
+     "id": "896d1d1e-2b87-4a83-b209-11a2ea997b49",
+     "label": "Water vapour",
+     "source": "EF 3.1",
+     "context": "envi-air-mest15me-ru10pesq",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ]
+  },
+  {
+   "bafu_name": "Particulates, < 2.5 Um",
+   "bafu_context": "emissions to air / stratosphere + troposphere",
+   "ours": {
+    "id": "08a91e70-3ddc-11dd-9294-0050c2490048",
+    "label": "particles (PM2.5)",
+    "context": "Emissions to air / Emissions to air, unspecified (long-term)",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "4d9a8790-3ddd-11dd-9368-0050c2490048",
+    "label": "particles (PM2.5)",
+    "context": "Emissions to air / Emissions to lower stratosphere and upper troposphere",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "4d9a8790-3ddd-11dd-9368-0050c2490048",
+     "label": "Particles (PM2.5)",
+     "source": "EF 3.1",
+     "context": "envi-air-aicrhe",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ]
+  },
+  {
+   "bafu_name": "Methane, Tetrachloro-, CFC-10",
+   "bafu_context": "emissions to water / river, long-term",
+   "ours": {
+    "id": "fe0acd60-3ddc-11dd-a92d-0050c2490048",
+    "label": "CFC-10",
+    "context": "Emissions to water / Emissions to fresh water",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "fe0acd60-3ddc-11dd-a92e-0050c2490048",
+    "label": "CFC-10",
+    "context": "Emissions to water / Emissions to water, unspecified (long-term)",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "fe0acd60-3ddc-11dd-a92e-0050c2490048",
+     "label": "Carbon tetrachloride",
+     "source": "EF 3.1",
+     "context": "envi-wate-lote",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "rows": 19,
+  "consensus_target_changed_since_run_20260904": 1,
+  "consensus_now_equals_ours": 0
+ }
+}

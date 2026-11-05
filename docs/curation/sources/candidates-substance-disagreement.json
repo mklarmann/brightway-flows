@@ -1,0 +1,125 @@
+{
+ "what": "Consensus contribution candidates, class SUBSTANCE_DISAGREEMENT",
+ "measured_on": {
+  "release": "brightway-flows 1.1.0",
+  "revision": "d151dbba753679d221dcfb712857145c471e6ad4",
+  "zenodo": "https://zenodo.org/records/23554066"
+ },
+ "upstream_checked_at": {
+  "revision": "5f06833363159f76955fdeb2aed895bff2dd4615",
+  "date": "2026-11-05"
+ },
+ "class": "SUBSTANCE_DISAGREEMENT",
+ "definition": "different EF names, no altLabel bridge — a chemist decides",
+ "rows": [
+  {
+   "bafu_name": "Aluminium",
+   "bafu_context": "emissions to water / unspecified",
+   "ours": {
+    "id": "fe0acd60-3ddc-11dd-a734-0050c2490048",
+    "label": "aluminium",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "c9b156f3-7d47-4bb2-ad51-385b54c8612a",
+    "label": "aluminium (iii)",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "c9b156f3-7d47-4bb2-ad51-385b54c8612a",
+     "label": "Aluminium(3+)",
+     "source": "EF 3.1",
+     "context": "envi-wate-unkn",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ]
+  },
+  {
+   "bafu_name": "Bauxite",
+   "bafu_context": "resources / in ground",
+   "ours": {
+    "id": "08a91e70-3ddc-11dd-9438-0050c2490048",
+    "label": "gallium",
+    "context": "Resources from ground / Non-renewable element resources from ground",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "08a91e70-3ddc-11dd-97dd-0050c2490048",
+    "label": "bauxite",
+    "context": "Resources from ground / Non-renewable material resources from ground",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "08a91e70-3ddc-11dd-97dd-0050c2490048",
+     "label": "Bauxite",
+     "source": "EF 3.1",
+     "context": "reso-grou",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ]
+  },
+  {
+   "bafu_name": "1,4-Butanediol",
+   "bafu_context": "emissions to air / unspecified",
+   "ours": {
+    "id": "76e23897-65a0-4676-82a9-5a2eebc5668f",
+    "label": "1,4-butanediol, reaction product with 1-chloro-2,3-epoxypropane",
+    "context": "Emissions to air / Emissions to urban air close to ground",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "fe0acd60-3ddc-11dd-a8a7-0050c2490048",
+    "label": "butylene glycol",
+    "context": "Emissions to air / Emissions to air, unspecified",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "fe0acd60-3ddc-11dd-a8a7-0050c2490048",
+     "label": "Butylene Glycol",
+     "source": "EF 3.1",
+     "context": "envi-air-unkn",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ]
+  },
+  {
+   "bafu_name": "1,4-Butanediol",
+   "bafu_context": "emissions to air / high. pop.",
+   "ours": {
+    "id": "76e23897-65a0-4676-82a9-5a2eebc5668f",
+    "label": "1,4-butanediol, reaction product with 1-chloro-2,3-epoxypropane",
+    "context": "Emissions to air / Emissions to urban air close to ground",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "fe0acd60-3ddc-11dd-a8a9-0050c2490048",
+    "label": "butylene glycol",
+    "context": "Emissions to air / Emissions to urban air close to ground",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "fe0acd60-3ddc-11dd-a8a9-0050c2490048",
+     "label": "Butylene Glycol",
+     "source": "EF 3.1",
+     "context": "envi-air-grle-ur10pesq",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "rows": 4,
+  "consensus_target_changed_since_run_20260904": 0,
+  "consensus_now_equals_ours": 0
+ }
+}

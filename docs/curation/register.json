@@ -798,6 +798,686 @@
           "note": "Issue closure alone does not establish sign-off or release adoption."
         }
       ]
+    },
+    {
+      "origin": "source",
+      "stage": "recorded",
+      "sources": [
+        "BAFU",
+        "EF 3.1"
+      ],
+      "revision": "d151dbba753679d221dcfb712857145c471e6ad4",
+      "updated_at": "2026-11-05T05:00:00+01:00",
+      "reported_by": "mklarmann",
+      "reported_at": "2026-11-05T05:00:00+01:00",
+      "owner": null,
+      "collection": "Contributed consensus findings",
+      "proposals": [
+        {
+          "title": "Ten BAFU rows are accounting entries, not things taken from the environment",
+          "url": "https://github.com/brightway-labs/brightway-flows/issues/69",
+          "kind": "Issue",
+          "state": "closed",
+          "author": null,
+          "recorded_at": null,
+          "note": "State read on 5 November 2026."
+        }
+      ],
+      "related_cases": [],
+      "id": "bafu-embodied-water-is-an-output",
+      "tags": [
+        "Water",
+        "Direction",
+        "BAFU"
+      ],
+      "title": "BAFU's water embodied in product is an output, not a withdrawal",
+      "summary": "Brightway Flows 1.1.0 places the 5 BAFU rows `Water, embodied in product[, <country>]` (economic issues, kg) on EF 3.1 `water` in Resources, a withdrawal input, at 0.001 m3/kg.",
+      "reason": "In BAFU:2026 all 13 exchanges on these flows are outputs: the water content of fruit and vegetables leaving the dataset. In 12 of the 13 datasets that water is already counted where it is withdrawn, and the 13th is rain-fed. Characterised as a withdrawal, the same water is counted twice. The unit conversion is right; the direction is not. Upstream's change notes call it #69's open question, and #69 is closed.",
+      "evidence": [
+        {
+          "label": "Correspondence rows and BAFU:2026 use",
+          "url": "/curation/evidence/embodied-water-direction",
+          "kind": "Evidence snapshot",
+          "note": "Counts only; no dataset amounts."
+        },
+        {
+          "label": "Change notes for BAFU 2026 v1",
+          "url": "https://github.com/brightway-labs/brightway-flows/blob/5f06833363159f76955fdeb2aed895bff2dd4615/docs/changes/bafu-2026-v1.md",
+          "kind": "Upstream documentation",
+          "note": "Row 'Water, embodied in product, CH · ES · KE · MX · PE'."
+        }
+      ],
+      "next_action": "Decide whether an output of product water belongs in the flow list at all; if it does, give it a direction and context that no withdrawal factor reaches. Our own use already holds it at 0 (ruling of 5 November 2026).",
+      "disposition": "Our use: no water-use factor (ruled 2026-11-05). Upstream: a question, not yet raised."
+    },
+    {
+      "origin": "processing",
+      "stage": "recorded",
+      "sources": [
+        "BAFU",
+        "EF 3.1"
+      ],
+      "revision": "d151dbba753679d221dcfb712857145c471e6ad4",
+      "updated_at": "2026-11-05T05:00:00+01:00",
+      "reported_by": "mklarmann",
+      "reported_at": "2026-11-05T05:00:00+01:00",
+      "owner": null,
+      "collection": "Contributed consensus findings",
+      "proposals": [],
+      "related_cases": [],
+      "id": "our-proxy-boscalid-too-far",
+      "tags": [
+        "Matching",
+        "Our error"
+      ],
+      "title": "Our match for BAFU Boscalid is a class proxy for one named fungicide",
+      "summary": "We mapped BAFU `Boscalid` to EF 3.1 `Fungicides, unspecified`; Brightway Flows 1.1.0 mints `Boscalid` for it.",
+      "reason": "The consensus is the better identity here: our target is a class proxy for one named fungicide. It kept a factor, but on the wrong substance.",
+      "evidence": [
+        {
+          "label": "Rows",
+          "url": "/curation/evidence/our-proxy-boscalid",
+          "kind": "Evidence snapshot",
+          "note": ""
+        }
+      ],
+      "next_action": "We retire the proxy and follow the consensus identity. Nothing to raise upstream.",
+      "disposition": "Ours to fix."
+    },
+    {
+      "origin": "processing",
+      "stage": "recorded",
+      "sources": [
+        "BAFU",
+        "EF 3.1"
+      ],
+      "revision": "d151dbba753679d221dcfb712857145c471e6ad4",
+      "updated_at": "2026-11-05T05:00:00+01:00",
+      "reported_by": "mklarmann",
+      "reported_at": "2026-11-05T05:00:00+01:00",
+      "owner": null,
+      "collection": "Contributed consensus findings",
+      "proposals": [],
+      "related_cases": [],
+      "id": "our-proxy-zoxamide-too-far",
+      "tags": [
+        "Matching",
+        "Our error"
+      ],
+      "title": "Our match for BAFU Zoxamide is a class proxy for one named fungicide",
+      "summary": "We mapped BAFU `Zoxamide` to EF 3.1 `Fungicides, unspecified`; Brightway Flows 1.1.0 mints `Zoxamide` for it.",
+      "reason": "The consensus is the better identity here: our target is a class proxy for one named fungicide. It kept a factor, but on the wrong substance.",
+      "evidence": [
+        {
+          "label": "Rows",
+          "url": "/curation/evidence/our-proxy-zoxamide",
+          "kind": "Evidence snapshot",
+          "note": ""
+        }
+      ],
+      "next_action": "We retire the proxy and follow the consensus identity. Nothing to raise upstream.",
+      "disposition": "Ours to fix."
+    },
+    {
+      "origin": "processing",
+      "stage": "recorded",
+      "sources": [
+        "BAFU",
+        "EF 3.1"
+      ],
+      "revision": "d151dbba753679d221dcfb712857145c471e6ad4",
+      "updated_at": "2026-11-05T05:00:00+01:00",
+      "reported_by": "mklarmann",
+      "reported_at": "2026-11-05T05:00:00+01:00",
+      "owner": null,
+      "collection": "Contributed consensus findings",
+      "proposals": [],
+      "related_cases": [],
+      "id": "our-proxy-butanediol-too-far",
+      "tags": [
+        "Matching",
+        "Our error"
+      ],
+      "title": "Our match for BAFU 1,4-Butanediol is a different compound, the epichlorohydrin reaction product",
+      "summary": "We mapped BAFU `1,4-Butanediol` to EF 3.1 `1,4-butanediol, reaction product with 1-chloro-2,3-epoxypropane`; Brightway Flows 1.1.0 mints `Butylene Glycol` for it.",
+      "reason": "The consensus is the better identity here: our target is a different compound, the epichlorohydrin reaction product. It kept a factor, but on the wrong substance.",
+      "evidence": [
+        {
+          "label": "Rows",
+          "url": "/curation/evidence/our-proxy-butanediol",
+          "kind": "Evidence snapshot",
+          "note": ""
+        }
+      ],
+      "next_action": "We retire the proxy and follow the consensus identity. Nothing to raise upstream.",
+      "disposition": "Ours to fix."
+    },
+    {
+      "origin": "processing",
+      "stage": "recorded",
+      "sources": [
+        "BAFU",
+        "EF 3.1"
+      ],
+      "revision": "d151dbba753679d221dcfb712857145c471e6ad4",
+      "updated_at": "2026-11-05T05:00:00+01:00",
+      "reported_by": "mklarmann",
+      "reported_at": "2026-11-05T05:00:00+01:00",
+      "owner": null,
+      "collection": "Contributed consensus findings",
+      "proposals": [
+        {
+          "title": "BAFU's metals are the element, and the ion forms find no counterpart",
+          "url": "https://github.com/brightway-labs/brightway-flows/issues/379",
+          "kind": "Issue",
+          "state": "open",
+          "author": null,
+          "recorded_at": null,
+          "note": "State read on 5 November 2026."
+        },
+        {
+          "title": "Set an ion name's element number aside before enrichment",
+          "url": "https://github.com/brightway-labs/brightway-flows/issues/437",
+          "kind": "Issue",
+          "state": "open",
+          "author": null,
+          "recorded_at": null,
+          "note": "State read on 5 November 2026."
+        }
+      ],
+      "related_cases": [],
+      "id": "copper-ion-is-copper-2plus",
+      "tags": [
+        "Matching",
+        "Ions",
+        "Our error"
+      ],
+      "title": "BAFU Copper Ion is EF 3.1 copper(2+), not copper and not a new flow",
+      "summary": "For 3 BAFU `Copper Ion` rows we match elemental `copper`, and Brightway Flows 1.1.0 mints `Copper, ion`. EF 3.1 carries `Copper(2+)` (CAS 15158-11-9) in the same contexts, with the alt label `Copper ion (Cu++)`.",
+      "reason": "Copper's only common aqueous ion is Cu2+, and EF 3.1 names it. Both sides miss it: ours by taking the element, the consensus by minting.",
+      "evidence": [
+        {
+          "label": "Rows and the EF 3.1 copper(2+) flow",
+          "url": "/curation/evidence/copper-ion",
+          "kind": "Evidence snapshot",
+          "note": ""
+        }
+      ],
+      "next_action": "We move our match to copper(2+). Upstream, add the row to the ion work in #379 as a case where EF 3.1 names the ion.",
+      "disposition": "Ours to fix; one more example for #379."
+    },
+    {
+      "origin": "processing",
+      "stage": "recorded",
+      "sources": [
+        "BAFU",
+        "EF 3.1"
+      ],
+      "revision": "d151dbba753679d221dcfb712857145c471e6ad4",
+      "updated_at": "2026-11-05T05:00:00+01:00",
+      "reported_by": "mklarmann",
+      "reported_at": "2026-11-05T05:00:00+01:00",
+      "owner": null,
+      "collection": "Contributed consensus findings",
+      "proposals": [],
+      "related_cases": [],
+      "id": "candidates-ambiguous-subcompartment",
+      "tags": [
+        "Consensus candidates",
+        "Ambiguous Subcompartment"
+      ],
+      "title": "Several consensus rows join one of our flows because we lost the sub-compartment (303 rows)",
+      "summary": "303 BAFU rows where our EF 3.1 mapping and the consensus differ in this way. On 1.1.0 the consensus target changed for 3 of them and now equals ours for 1. 255 of the 303 rows were found on 1.1.0; the other 48 carry an empty 1.1.0 entry for every context.",
+      "reason": "Ours: resolved by our observation-level registration.",
+      "evidence": [
+        {
+          "label": "303 rows",
+          "url": "/curation/evidence/candidates-ambiguous-subcompartment",
+          "kind": "Evidence snapshot",
+          "note": "Pointers like ?pointer=/rows/0 select one row."
+        }
+      ],
+      "next_action": "Ours: resolved by our observation-level registration.",
+      "disposition": "Ours: resolved by our observation-level registration."
+    },
+    {
+      "origin": "processing",
+      "stage": "recorded",
+      "sources": [
+        "BAFU",
+        "EF 3.1"
+      ],
+      "revision": "d151dbba753679d221dcfb712857145c471e6ad4",
+      "updated_at": "2026-11-05T05:00:00+01:00",
+      "reported_by": "mklarmann",
+      "reported_at": "2026-11-05T05:00:00+01:00",
+      "owner": null,
+      "collection": "Contributed consensus findings",
+      "proposals": [],
+      "related_cases": [],
+      "id": "candidates-cf-less-target",
+      "tags": [
+        "Consensus candidates",
+        "Cf Less Target"
+      ],
+      "title": "The consensus target exists in EF 3.1 but carries no factor (502 rows)",
+      "summary": "502 BAFU rows where our EF 3.1 mapping and the consensus differ in this way. On 1.1.0 the consensus target changed for 2 of them and now equals ours for 0.",
+      "reason": "Nothing to file: an identity with nothing to score.",
+      "evidence": [
+        {
+          "label": "502 rows",
+          "url": "/curation/evidence/candidates-cf-less-target",
+          "kind": "Evidence snapshot",
+          "note": "Pointers like ?pointer=/rows/0 select one row."
+        }
+      ],
+      "next_action": "Nothing to file: an identity with nothing to score.",
+      "disposition": "Nothing to file: an identity with nothing to score."
+    },
+    {
+      "origin": "processing",
+      "stage": "recorded",
+      "sources": [
+        "BAFU",
+        "EF 3.1"
+      ],
+      "revision": "d151dbba753679d221dcfb712857145c471e6ad4",
+      "updated_at": "2026-11-05T05:00:00+01:00",
+      "reported_by": "mklarmann",
+      "reported_at": "2026-11-05T05:00:00+01:00",
+      "owner": null,
+      "collection": "Contributed consensus findings",
+      "proposals": [],
+      "related_cases": [],
+      "id": "candidates-compartment-conflict",
+      "tags": [
+        "Consensus candidates",
+        "Compartment Conflict"
+      ],
+      "title": "The consensus target sits in another top compartment than our BAFU flow (4 rows)",
+      "summary": "4 BAFU rows where our EF 3.1 mapping and the consensus differ in this way. On 1.1.0 the consensus target changed for 0 of them and now equals ours for 0.",
+      "reason": "Open: each row needs a reading; nothing raised yet.",
+      "evidence": [
+        {
+          "label": "4 rows",
+          "url": "/curation/evidence/candidates-compartment-conflict",
+          "kind": "Evidence snapshot",
+          "note": "Pointers like ?pointer=/rows/0 select one row."
+        }
+      ],
+      "next_action": "Open: each row needs a reading; nothing raised yet.",
+      "disposition": "Open: each row needs a reading; nothing raised yet."
+    },
+    {
+      "origin": "processing",
+      "stage": "recorded",
+      "sources": [
+        "BAFU",
+        "EF 3.1"
+      ],
+      "revision": "d151dbba753679d221dcfb712857145c471e6ad4",
+      "updated_at": "2026-11-05T05:00:00+01:00",
+      "reported_by": "mklarmann",
+      "reported_at": "2026-11-05T05:00:00+01:00",
+      "owner": null,
+      "collection": "Contributed consensus findings",
+      "proposals": [],
+      "related_cases": [],
+      "id": "candidates-context-only",
+      "tags": [
+        "Consensus candidates",
+        "Context Only"
+      ],
+      "title": "Same substance, another sub-compartment (19 rows)",
+      "summary": "19 BAFU rows where our EF 3.1 mapping and the consensus differ in this way. On 1.1.0 the consensus target changed for 1 of them and now equals ours for 0.",
+      "reason": "Ours: the sub-compartment our BAFU registration lost. Our observation-level registration keeps it.",
+      "evidence": [
+        {
+          "label": "19 rows",
+          "url": "/curation/evidence/candidates-context-only",
+          "kind": "Evidence snapshot",
+          "note": "Pointers like ?pointer=/rows/0 select one row."
+        }
+      ],
+      "next_action": "Ours: the sub-compartment our BAFU registration lost. Our observation-level registration keeps it.",
+      "disposition": "Ours: the sub-compartment our BAFU registration lost. Our observation-level registration keeps it."
+    },
+    {
+      "origin": "processing",
+      "stage": "recorded",
+      "sources": [
+        "BAFU",
+        "EF 3.1"
+      ],
+      "revision": "d151dbba753679d221dcfb712857145c471e6ad4",
+      "updated_at": "2026-11-05T05:00:00+01:00",
+      "reported_by": "mklarmann",
+      "reported_at": "2026-11-05T05:00:00+01:00",
+      "owner": null,
+      "collection": "Contributed consensus findings",
+      "proposals": [],
+      "related_cases": [],
+      "id": "candidates-ef-uuid-not-in-our-list",
+      "tags": [
+        "Consensus candidates",
+        "Ef Uuid Not In Our List"
+      ],
+      "title": "The consensus names an EF 3.1 uuid our flow list lacks (3 rows)",
+      "summary": "3 BAFU rows where our EF 3.1 mapping and the consensus differ in this way. On 1.1.0 the consensus target changed for 0 of them and now equals ours for 0.",
+      "reason": "Ours: a gap in our EF 3.1 flow list.",
+      "evidence": [
+        {
+          "label": "3 rows",
+          "url": "/curation/evidence/candidates-ef-uuid-not-in-our-list",
+          "kind": "Evidence snapshot",
+          "note": "Pointers like ?pointer=/rows/0 select one row."
+        }
+      ],
+      "next_action": "Ours: a gap in our EF 3.1 flow list.",
+      "disposition": "Ours: a gap in our EF 3.1 flow list."
+    },
+    {
+      "origin": "processing",
+      "stage": "recorded",
+      "sources": [
+        "BAFU",
+        "EF 3.1"
+      ],
+      "revision": "d151dbba753679d221dcfb712857145c471e6ad4",
+      "updated_at": "2026-11-05T05:00:00+01:00",
+      "reported_by": "mklarmann",
+      "reported_at": "2026-11-05T05:00:00+01:00",
+      "owner": null,
+      "collection": "Contributed consensus findings",
+      "proposals": [],
+      "related_cases": [],
+      "id": "candidates-spelling-variant",
+      "tags": [
+        "Consensus candidates",
+        "Spelling Variant"
+      ],
+      "title": "Two spellings bridged by an alt label (1 rows)",
+      "summary": "1 BAFU rows where our EF 3.1 mapping and the consensus differ in this way. On 1.1.0 the consensus target changed for 0 of them and now equals ours for 0.",
+      "reason": "Nothing to file: the same substance.",
+      "evidence": [
+        {
+          "label": "1 rows",
+          "url": "/curation/evidence/candidates-spelling-variant",
+          "kind": "Evidence snapshot",
+          "note": "Pointers like ?pointer=/rows/0 select one row."
+        }
+      ],
+      "next_action": "Nothing to file: the same substance.",
+      "disposition": "Nothing to file: the same substance."
+    },
+    {
+      "origin": "processing",
+      "stage": "recorded",
+      "sources": [
+        "BAFU",
+        "EF 3.1"
+      ],
+      "revision": "d151dbba753679d221dcfb712857145c471e6ad4",
+      "updated_at": "2026-11-05T05:00:00+01:00",
+      "reported_by": "mklarmann",
+      "reported_at": "2026-11-05T05:00:00+01:00",
+      "owner": null,
+      "collection": "Contributed consensus findings",
+      "proposals": [
+        {
+          "title": "Aluminium is not typed as an element, so its ion is not recognised",
+          "url": "https://github.com/brightway-labs/brightway-flows/issues/327",
+          "kind": "Issue",
+          "state": "closed",
+          "author": null,
+          "recorded_at": null,
+          "note": "State read on 5 November 2026."
+        }
+      ],
+      "related_cases": [],
+      "id": "candidates-substance-disagreement",
+      "tags": [
+        "Consensus candidates",
+        "Substance Disagreement"
+      ],
+      "title": "Different EF 3.1 names with no alt-label bridge (4 rows)",
+      "summary": "4 BAFU rows where our EF 3.1 mapping and the consensus differ in this way. On 1.1.0 the consensus target changed for 0 of them and now equals ours for 0.",
+      "reason": "Mostly our wrong matches; aluminium against aluminium(III) is the one genuine question.",
+      "evidence": [
+        {
+          "label": "4 rows",
+          "url": "/curation/evidence/candidates-substance-disagreement",
+          "kind": "Evidence snapshot",
+          "note": "Pointers like ?pointer=/rows/0 select one row."
+        }
+      ],
+      "next_action": "Mostly our wrong matches; aluminium against aluminium(III) is the one genuine question.",
+      "disposition": "Mostly our wrong matches; aluminium against aluminium(III) is the one genuine question."
+    },
+    {
+      "origin": "processing",
+      "stage": "recorded",
+      "sources": [
+        "BAFU",
+        "EF 3.1"
+      ],
+      "revision": "d151dbba753679d221dcfb712857145c471e6ad4",
+      "updated_at": "2026-11-05T05:00:00+01:00",
+      "reported_by": "mklarmann",
+      "reported_at": "2026-11-05T05:00:00+01:00",
+      "owner": null,
+      "collection": "Contributed consensus findings",
+      "proposals": [
+        {
+          "title": "339 flows in river, lake, fossil-groundwater and biotic compartments have no factor",
+          "url": "https://github.com/brightway-labs/brightway-flows/issues/159",
+          "kind": "Issue",
+          "state": "open",
+          "author": null,
+          "recorded_at": null,
+          "note": "State read on 5 November 2026."
+        }
+      ],
+      "related_cases": [],
+      "id": "candidates-they-minted-context-proxy",
+      "tags": [
+        "Consensus candidates",
+        "They Minted Context Proxy"
+      ],
+      "title": "The consensus mints where we use the same substance in another sub-compartment (338 rows)",
+      "summary": "338 BAFU rows where our EF 3.1 mapping and the consensus differ in this way. On 1.1.0 the consensus target changed for 0 of them and now equals ours for 0.",
+      "reason": "A policy question on both sides, tracked upstream as #159.",
+      "evidence": [
+        {
+          "label": "338 rows",
+          "url": "/curation/evidence/candidates-they-minted-context-proxy",
+          "kind": "Evidence snapshot",
+          "note": "Pointers like ?pointer=/rows/0 select one row."
+        }
+      ],
+      "next_action": "A policy question on both sides, tracked upstream as #159.",
+      "disposition": "A policy question on both sides, tracked upstream as #159."
+    },
+    {
+      "origin": "processing",
+      "stage": "recorded",
+      "sources": [
+        "BAFU",
+        "EF 3.1"
+      ],
+      "revision": "d151dbba753679d221dcfb712857145c471e6ad4",
+      "updated_at": "2026-11-05T05:00:00+01:00",
+      "reported_by": "mklarmann",
+      "reported_at": "2026-11-05T05:00:00+01:00",
+      "owner": null,
+      "collection": "Contributed consensus findings",
+      "proposals": [
+        {
+          "title": "Sub-compartments with no factor",
+          "url": "https://github.com/brightway-labs/brightway-flows/issues/159",
+          "kind": "Issue",
+          "state": "open",
+          "author": null,
+          "recorded_at": null,
+          "note": "State read on 5 November 2026."
+        },
+        {
+          "title": "Element and ion",
+          "url": "https://github.com/brightway-labs/brightway-flows/issues/379",
+          "kind": "Issue",
+          "state": "open",
+          "author": null,
+          "recorded_at": null,
+          "note": "State read on 5 November 2026."
+        },
+        {
+          "title": "Created substances with no chemistry data",
+          "url": "https://github.com/brightway-labs/brightway-flows/issues/71",
+          "kind": "Issue",
+          "state": "open",
+          "author": null,
+          "recorded_at": null,
+          "note": "State read on 5 November 2026."
+        }
+      ],
+      "related_cases": [
+        "our-proxy-boscalid-too-far",
+        "our-proxy-zoxamide-too-far",
+        "our-proxy-butanediol-too-far",
+        "copper-ion-is-copper-2plus"
+      ],
+      "id": "candidates-they-minted-substance-proxy",
+      "tags": [
+        "Consensus candidates",
+        "They Minted Substance Proxy"
+      ],
+      "title": "The consensus mints where we match an EF 3.1 flow of another name (35 rows)",
+      "summary": "35 BAFU rows where our EF 3.1 mapping and the consensus differ in this way. On 1.1.0 the consensus target changed for 0 of them and now equals ours for 0.",
+      "reason": "Nothing new to raise: 22 rows are the #159 gap, 3 are our proxies, 10 are tracked or deliberate upstream.",
+      "evidence": [
+        {
+          "label": "35 rows",
+          "url": "/curation/evidence/candidates-they-minted-substance-proxy",
+          "kind": "Evidence snapshot",
+          "note": "Pointers like ?pointer=/rows/0 select one row."
+        }
+      ],
+      "next_action": "Nothing new to raise: 22 rows are the #159 gap, 3 are our proxies, 10 are tracked or deliberate upstream.",
+      "disposition": "Nothing new to raise: 22 rows are the #159 gap, 3 are our proxies, 10 are tracked or deliberate upstream."
+    }
+  ],
+  "documents": [
+    {
+      "id": "embodied-water-direction",
+      "title": "BAFU's water embodied in product, as Brightway Flows 1.1.0 links it, and how BAFU:2026 uses it",
+      "filename": "embodied-water-direction.json",
+      "sha256": "64165184f88c280360b93e96c0374532c76203b85898752a5122e4cc00806592",
+      "generation": "Read from the 1.1.0 release correspondences and from the BAFU:2026 ecoSpold v1 files (counts only)",
+      "origin_url": "https://zenodo.org/records/23554066"
+    },
+    {
+      "id": "our-proxy-boscalid",
+      "title": "BAFU Boscalid: our EF 3.1 match against the consensus",
+      "filename": "our-proxy-boscalid.json",
+      "sha256": "d1906ddafec39c41bf12400983250dbb5530d054937f9985c0e715e6ed0daaa3",
+      "generation": "Re-measured on 1.1.0",
+      "origin_url": "https://zenodo.org/records/23554066"
+    },
+    {
+      "id": "our-proxy-zoxamide",
+      "title": "BAFU Zoxamide: our EF 3.1 match against the consensus",
+      "filename": "our-proxy-zoxamide.json",
+      "sha256": "bdbbf42679700ec8a7b980ef562eecf8a0b93c9467286efe619d6e940a774ae4",
+      "generation": "Re-measured on 1.1.0",
+      "origin_url": "https://zenodo.org/records/23554066"
+    },
+    {
+      "id": "our-proxy-butanediol",
+      "title": "BAFU 1,4-Butanediol: our EF 3.1 match against the consensus",
+      "filename": "our-proxy-butanediol.json",
+      "sha256": "3bd2983c7a59ee108becbdc26606e433fbbd0de30578d9c9112e84478d66af04",
+      "generation": "Re-measured on 1.1.0",
+      "origin_url": "https://zenodo.org/records/23554066"
+    },
+    {
+      "id": "copper-ion",
+      "title": "BAFU Copper Ion: our match, the consensus mint and EF 3.1's copper(2+)",
+      "filename": "copper-ion.json",
+      "sha256": "8263b8c4fe6ac1a702ca77ee57eeb420d1dc4ea7c286451254d7192ddd1583b5",
+      "generation": "Re-measured on 1.1.0",
+      "origin_url": "https://zenodo.org/records/23554066"
+    },
+    {
+      "id": "candidates-ambiguous-subcompartment",
+      "title": "Consensus contribution candidates, class AMBIGUOUS_SUBCOMPARTMENT",
+      "filename": "candidates-ambiguous-subcompartment.json",
+      "sha256": "f0b9dfaf8c21e257e39ffede6b7992a1237847e438f0f26108733755fbeaac75",
+      "generation": "Our adoption comparison of run 20260904, re-measured on 1.1.0",
+      "origin_url": "https://zenodo.org/records/23554066"
+    },
+    {
+      "id": "candidates-cf-less-target",
+      "title": "Consensus contribution candidates, class CF_LESS_TARGET",
+      "filename": "candidates-cf-less-target.json",
+      "sha256": "dc8e1c43c545ecd780e1470542e27443fcf6b470040fd50b829b5b44297e23fd",
+      "generation": "Our adoption comparison of run 20260904, re-measured on 1.1.0",
+      "origin_url": "https://zenodo.org/records/23554066"
+    },
+    {
+      "id": "candidates-compartment-conflict",
+      "title": "Consensus contribution candidates, class COMPARTMENT_CONFLICT",
+      "filename": "candidates-compartment-conflict.json",
+      "sha256": "080a127a331d94e153c0e791eb5a58ee08ecdf7ca6c7964829f2646800fd46c7",
+      "generation": "Our adoption comparison of run 20260904, re-measured on 1.1.0",
+      "origin_url": "https://zenodo.org/records/23554066"
+    },
+    {
+      "id": "candidates-context-only",
+      "title": "Consensus contribution candidates, class CONTEXT_ONLY",
+      "filename": "candidates-context-only.json",
+      "sha256": "e3626f395b04cff3078f658c3e659b6053fa20ec328fabe55e20fad5340897b8",
+      "generation": "Our adoption comparison of run 20260904, re-measured on 1.1.0",
+      "origin_url": "https://zenodo.org/records/23554066"
+    },
+    {
+      "id": "candidates-ef-uuid-not-in-our-list",
+      "title": "Consensus contribution candidates, class EF_UUID_NOT_IN_OUR_LIST",
+      "filename": "candidates-ef-uuid-not-in-our-list.json",
+      "sha256": "001eca5a932d6e1294ccbbe278920e707e859c6ac2b9102b277a8923d32c69c1",
+      "generation": "Our adoption comparison of run 20260904, re-measured on 1.1.0",
+      "origin_url": "https://zenodo.org/records/23554066"
+    },
+    {
+      "id": "candidates-spelling-variant",
+      "title": "Consensus contribution candidates, class SPELLING_VARIANT",
+      "filename": "candidates-spelling-variant.json",
+      "sha256": "3959eda32d026d056c1d2a337ff6dfd9e17a0ad31cfae9fbef2ee2ff57291a52",
+      "generation": "Our adoption comparison of run 20260904, re-measured on 1.1.0",
+      "origin_url": "https://zenodo.org/records/23554066"
+    },
+    {
+      "id": "candidates-substance-disagreement",
+      "title": "Consensus contribution candidates, class SUBSTANCE_DISAGREEMENT",
+      "filename": "candidates-substance-disagreement.json",
+      "sha256": "b7abdfa64219e9ba72369899bd4300eb499a639b38699cb58b9d07e753025cb2",
+      "generation": "Our adoption comparison of run 20260904, re-measured on 1.1.0",
+      "origin_url": "https://zenodo.org/records/23554066"
+    },
+    {
+      "id": "candidates-they-minted-context-proxy",
+      "title": "Consensus contribution candidates, class THEY_MINTED_CONTEXT_PROXY",
+      "filename": "candidates-they-minted-context-proxy.json",
+      "sha256": "2b20b1f23bd06b989f5c22e17b9930d5ec30fdf0140709bc7eb189ff15501802",
+      "generation": "Our adoption comparison of run 20260904, re-measured on 1.1.0",
+      "origin_url": "https://zenodo.org/records/23554066"
+    },
+    {
+      "id": "candidates-they-minted-substance-proxy",
+      "title": "Consensus contribution candidates, class THEY_MINTED_SUBSTANCE_PROXY",
+      "filename": "candidates-they-minted-substance-proxy.json",
+      "sha256": "0f82de044ed353464094edaf02780cd806f5594799d604b5fa7053ba0d147018",
+      "generation": "Our adoption comparison of run 20260904, re-measured on 1.1.0",
+      "origin_url": "https://zenodo.org/records/23554066"
     }
   ]
 }

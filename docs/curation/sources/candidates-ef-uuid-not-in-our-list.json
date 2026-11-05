@@ -1,0 +1,99 @@
+{
+ "what": "Consensus contribution candidates, class EF_UUID_NOT_IN_OUR_LIST",
+ "measured_on": {
+  "release": "brightway-flows 1.1.0",
+  "revision": "d151dbba753679d221dcfb712857145c471e6ad4",
+  "zenodo": "https://zenodo.org/records/23554066"
+ },
+ "upstream_checked_at": {
+  "revision": "5f06833363159f76955fdeb2aed895bff2dd4615",
+  "date": "2026-11-05"
+ },
+ "class": "EF_UUID_NOT_IN_OUR_LIST",
+ "definition": "their EF 3.1 uuid is not in our ef31_flows.json (a gap in OUR list when the uuid carries JRC CFs)",
+ "rows": [
+  {
+   "bafu_name": "1-Pentene",
+   "bafu_context": "emissions to air / low. pop.",
+   "ours": {
+    "id": null,
+    "label": null,
+    "context": null,
+    "characterised": null
+   },
+   "consensus_at_run_20260904": {
+    "id": "fe0acd60-3ddc-11dd-9fe5-0050c2490048",
+    "label": null,
+    "context": null,
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "fe0acd60-3ddc-11dd-9fe5-0050c2490048",
+     "label": "1-pentene",
+     "source": "EF 3.1",
+     "context": "envi-air-mest15me-ru10pesq",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ]
+  },
+  {
+   "bafu_name": "1-Pentene",
+   "bafu_context": "emissions to air / high. pop.",
+   "ours": {
+    "id": null,
+    "label": null,
+    "context": null,
+    "characterised": null
+   },
+   "consensus_at_run_20260904": {
+    "id": "fe0acd60-3ddc-11dd-9fe4-0050c2490048",
+    "label": null,
+    "context": null,
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "fe0acd60-3ddc-11dd-9fe4-0050c2490048",
+     "label": "1-pentene",
+     "source": "EF 3.1",
+     "context": "envi-air-grle-ur10pesq",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ]
+  },
+  {
+   "bafu_name": "1-Pentene",
+   "bafu_context": "emissions to air / unspecified",
+   "ours": {
+    "id": null,
+    "label": null,
+    "context": null,
+    "characterised": null
+   },
+   "consensus_at_run_20260904": {
+    "id": "fe0acd60-3ddc-11dd-9fe2-0050c2490048",
+    "label": null,
+    "context": null,
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "fe0acd60-3ddc-11dd-9fe2-0050c2490048",
+     "label": "1-pentene",
+     "source": "EF 3.1",
+     "context": "envi-air-unkn",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "rows": 3,
+  "consensus_target_changed_since_run_20260904": 0,
+  "consensus_now_equals_ours": 0
+ }
+}

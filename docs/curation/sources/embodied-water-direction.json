@@ -1,0 +1,97 @@
+{
+ "what": "BAFU's water embodied in product, as Brightway Flows 1.1.0 links it, and how BAFU:2026 uses it",
+ "measured_on": {
+  "release": "brightway-flows 1.1.0",
+  "revision": "d151dbba753679d221dcfb712857145c471e6ad4",
+  "zenodo": "https://zenodo.org/records/23554066"
+ },
+ "upstream_checked_at": {
+  "revision": "5f06833363159f76955fdeb2aed895bff2dd4615",
+  "date": "2026-11-05"
+ },
+ "rows": [
+  {
+   "bafu_name": "Water, Embodied In Product",
+   "bafu_context": "economic issues / unspecified",
+   "bafu_unit": "KiloGM",
+   "target": {
+    "id": "419682fe-60fb-4b43-be89-bf2824b51104",
+    "label": "Water",
+    "source": "EF 3.1",
+    "context": "reso-wate",
+    "conversion_multiplier": 0.001,
+    "conversion_basis": "curated"
+   }
+  },
+  {
+   "bafu_name": "Water, Embodied In Product",
+   "bafu_context": "economic issues / unspecified",
+   "bafu_unit": "KiloGM",
+   "target": {
+    "id": "419682fe-60fb-4b43-be89-bf2824b51104",
+    "label": "Water",
+    "source": "EF 3.1",
+    "context": "reso-wate",
+    "conversion_multiplier": 0.001,
+    "conversion_basis": "curated"
+   }
+  },
+  {
+   "bafu_name": "Water, Embodied In Product",
+   "bafu_context": "economic issues / unspecified",
+   "bafu_unit": "KiloGM",
+   "target": {
+    "id": "419682fe-60fb-4b43-be89-bf2824b51104",
+    "label": "Water",
+    "source": "EF 3.1",
+    "context": "reso-wate",
+    "conversion_multiplier": 0.001,
+    "conversion_basis": "curated"
+   }
+  },
+  {
+   "bafu_name": "Water, Embodied In Product",
+   "bafu_context": "economic issues / unspecified",
+   "bafu_unit": "KiloGM",
+   "target": {
+    "id": "419682fe-60fb-4b43-be89-bf2824b51104",
+    "label": "Water",
+    "source": "EF 3.1",
+    "context": "reso-wate",
+    "conversion_multiplier": 0.001,
+    "conversion_basis": "curated"
+   }
+  },
+  {
+   "bafu_name": "Water, Embodied In Product",
+   "bafu_context": "economic issues / unspecified",
+   "bafu_unit": "KiloGM",
+   "target": {
+    "id": "419682fe-60fb-4b43-be89-bf2824b51104",
+    "label": "Water",
+    "source": "EF 3.1",
+    "context": "reso-wate",
+    "conversion_multiplier": 0.001,
+    "conversion_basis": "curated"
+   }
+  }
+ ],
+ "target_flow": {
+  "id": "419682fe-60fb-4b43-be89-bf2824b51104",
+  "label": "Water",
+  "context": "reso-wate",
+  "cas": [
+   "7732-18-5"
+  ],
+  "source": "EF 3.1"
+ },
+ "bafu_2026_use": {
+  "exchanges": 13,
+  "datasets": 13,
+  "direction": "all 13 are outputs of the dataset",
+  "products": "tomatoes, strawberries, asparagus and green beans, produced in CH, ES, KE, MX and PE",
+  "water_content": "0.90 to 0.95 kg of water per kg of product",
+  "withdrawal_counts_it": "12 of 13: the same dataset withdraws more water than the product carries, directly (5) or through tap water whose own dataset records the withdrawal (7; for one of them, the heated-greenhouse strawberries CH, only if its tap-water amount is read as 1,000 times larger, an apparent kg-for-m3 slip that is not yet confirmed)",
+  "rain_fed": "1 of 13 (green beans, CH): no irrigation, so the product water is green water, outside EF 3.1 water use"
+ }
+}
