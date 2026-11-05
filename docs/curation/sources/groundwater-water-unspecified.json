@@ -16,7 +16,7 @@
         "Environmental → Water → Unknown"
       ]
     },
-    "unconfined_aquifer": "no downward rule: the file's description lists the unconfined aquifer among the contexts deliberately left blank"
+    "unconfined_aquifer": "no downward rule: the file's description lists the unconfined aquifer among the contexts left blank for carrying, while aquifer rows an implementation states stand"
   },
   "measured_on_release": {
     "release": "brightway-flows 1.1.0",
@@ -84,8 +84,43 @@
   },
   "our_application": {
     "river and lake": "the upstream rule unchanged: EF 3.1 fresh water, failing that unspecified water",
-    "groundwater": "EF 3.1 'Emissions to water, unspecified' of the same substance: the short-term counterpart of BAFU 'groundwater, long-term', which the 1.1.0 release links to EF's unspecified water (long-term) and characterises there (rows above)",
-    "decided": "ruling of 5 November 2026"
+    "groundwater": "EF 3.1 'Emissions to water, unspecified' of the same substance, as JRC states it: the short-term counterpart of BAFU 'groundwater, long-term', which the 1.1.0 release links to EF's unspecified water (long-term) and characterises there (rows above). The JRC states no factor on the aquifer row itself."
+  },
+  "aquifer_rows_in_release": {
+    "counted": "BAFU substances with an 'emissions to water / groundwater' row in bafu-2026-v1 (60), per category: whether the 1.1.0 release states a factor on the row's target (envi-wate-unaq), and whether the brightway-flows value equals the JRC factor on the same substance's 'emissions to water / unspecified' row",
+    "per_category": {
+      "Eutrophication, freshwater": {
+        "groundwater_rows": 60,
+        "no_release_factor": 58,
+        "no_jrc_factor_but_release_factor": 2,
+        "release_value_equals_jrc_unspecified": 2
+      },
+      "Eutrophication marine": {
+        "groundwater_rows": 60,
+        "no_release_factor": 58,
+        "no_jrc_factor_but_release_factor": 2,
+        "release_value_equals_jrc_unspecified": 2
+      },
+      "Human toxicity, cancer": {
+        "groundwater_rows": 60,
+        "no_release_factor": 59,
+        "no_jrc_factor_but_release_factor": 1,
+        "release_value_differs_from_jrc_unspecified": 1
+      },
+      "Human toxicity, non-cancer": {
+        "groundwater_rows": 60,
+        "no_release_factor": 52,
+        "no_jrc_factor_but_release_factor": 8,
+        "release_value_differs_from_jrc_unspecified": 8
+      },
+      "Ecotoxicity, freshwater": {
+        "groundwater_rows": 60,
+        "no_release_factor": 46,
+        "no_jrc_factor_but_release_factor": 14,
+        "release_value_equals_jrc_unspecified": 13,
+        "no_jrc_unspecified_row_to_compare": 1
+      }
+    }
   },
   "exchanges_in_scope": {
     "river": 18218,
@@ -100,7 +135,7 @@
     "readings": [
       {
         "category": "Eutrophication, freshwater",
-        "reading": "no factor on river, lake or groundwater",
+        "reading": "JRC factors only: river, lake and groundwater without a factor",
         "processes_with_a_score": 11895,
         "processes_moving_more_than_10_percent": 11303,
         "median_change_percent": -19.53,
@@ -111,7 +146,7 @@
       },
       {
         "category": "Eutrophication, freshwater",
-        "reading": "upstream rules only: river and lake from fresh water, groundwater blank",
+        "reading": "JRC factors with the upstream river and lake rules; groundwater blank",
         "processes_with_a_score": 11895,
         "processes_moving_more_than_10_percent": 11041,
         "median_change_percent": -17.61,
@@ -122,7 +157,7 @@
       },
       {
         "category": "Eutrophication, freshwater",
-        "reading": "as applied: river and lake from fresh water, groundwater from water, unspecified",
+        "reading": "as applied: JRC factors with the upstream river and lake rules; groundwater from JRC water, unspecified",
         "processes_with_a_score": 11895,
         "processes_moving_more_than_10_percent": 0,
         "median_change_percent": 0.02,
@@ -133,7 +168,7 @@
       },
       {
         "category": "Eutrophication, marine",
-        "reading": "no factor on river, lake or groundwater",
+        "reading": "JRC factors only: river, lake and groundwater without a factor",
         "processes_with_a_score": 11893,
         "processes_moving_more_than_10_percent": 1736,
         "median_change_percent": -2.46,
@@ -144,7 +179,7 @@
       },
       {
         "category": "Eutrophication, marine",
-        "reading": "upstream rules only: river and lake from fresh water, groundwater blank",
+        "reading": "JRC factors with the upstream river and lake rules; groundwater blank",
         "processes_with_a_score": 11893,
         "processes_moving_more_than_10_percent": 1993,
         "median_change_percent": 0.19,
@@ -155,7 +190,7 @@
       },
       {
         "category": "Eutrophication, marine",
-        "reading": "as applied: river and lake from fresh water, groundwater from water, unspecified",
+        "reading": "as applied: JRC factors with the upstream river and lake rules; groundwater from JRC water, unspecified",
         "processes_with_a_score": 11893,
         "processes_moving_more_than_10_percent": 1692,
         "median_change_percent": 1.51,
@@ -166,7 +201,7 @@
       },
       {
         "category": "Human toxicity, cancer",
-        "reading": "no factor on river, lake or groundwater",
+        "reading": "JRC factors only: river, lake and groundwater without a factor",
         "processes_with_a_score": 11909,
         "processes_moving_more_than_10_percent": 1048,
         "median_change_percent": -2.59,
@@ -177,7 +212,7 @@
       },
       {
         "category": "Human toxicity, cancer",
-        "reading": "upstream rules only: river and lake from fresh water, groundwater blank",
+        "reading": "JRC factors with the upstream river and lake rules; groundwater blank",
         "processes_with_a_score": 11909,
         "processes_moving_more_than_10_percent": 4434,
         "median_change_percent": 7.5,
@@ -188,7 +223,7 @@
       },
       {
         "category": "Human toxicity, cancer",
-        "reading": "as applied: river and lake from fresh water, groundwater from water, unspecified",
+        "reading": "as applied: JRC factors with the upstream river and lake rules; groundwater from JRC water, unspecified",
         "processes_with_a_score": 11909,
         "processes_moving_more_than_10_percent": 4845,
         "median_change_percent": 8.69,
@@ -199,7 +234,7 @@
       },
       {
         "category": "Human toxicity, non-cancer",
-        "reading": "no factor on river, lake or groundwater",
+        "reading": "JRC factors only: river, lake and groundwater without a factor",
         "processes_with_a_score": 11910,
         "processes_moving_more_than_10_percent": 1560,
         "median_change_percent": -3.61,
@@ -210,7 +245,7 @@
       },
       {
         "category": "Human toxicity, non-cancer",
-        "reading": "upstream rules only: river and lake from fresh water, groundwater blank",
+        "reading": "JRC factors with the upstream river and lake rules; groundwater blank",
         "processes_with_a_score": 11910,
         "processes_moving_more_than_10_percent": 5202,
         "median_change_percent": 8.28,
@@ -221,7 +256,7 @@
       },
       {
         "category": "Human toxicity, non-cancer",
-        "reading": "as applied: river and lake from fresh water, groundwater from water, unspecified",
+        "reading": "as applied: JRC factors with the upstream river and lake rules; groundwater from JRC water, unspecified",
         "processes_with_a_score": 11910,
         "processes_moving_more_than_10_percent": 5909,
         "median_change_percent": 9.94,
@@ -232,7 +267,7 @@
       },
       {
         "category": "Ecotoxicity, freshwater",
-        "reading": "no factor on river, lake or groundwater",
+        "reading": "JRC factors only: river, lake and groundwater without a factor",
         "processes_with_a_score": 11910,
         "processes_moving_more_than_10_percent": 11001,
         "median_change_percent": -37.54,
@@ -243,7 +278,7 @@
       },
       {
         "category": "Ecotoxicity, freshwater",
-        "reading": "upstream rules only: river and lake from fresh water, groundwater blank",
+        "reading": "JRC factors with the upstream river and lake rules; groundwater blank",
         "processes_with_a_score": 11910,
         "processes_moving_more_than_10_percent": 6278,
         "median_change_percent": 9.46,
@@ -254,7 +289,7 @@
       },
       {
         "category": "Ecotoxicity, freshwater",
-        "reading": "as applied: river and lake from fresh water, groundwater from water, unspecified",
+        "reading": "as applied: JRC factors with the upstream river and lake rules; groundwater from JRC water, unspecified",
         "processes_with_a_score": 11910,
         "processes_moving_more_than_10_percent": 9624,
         "median_change_percent": 16.64,
