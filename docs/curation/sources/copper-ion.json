@@ -1,0 +1,135 @@
+{
+ "what": "BAFU Copper Ion: our match, the consensus mint and EF 3.1's copper(2+)",
+ "measured_on": {
+  "release": "brightway-flows 1.1.0",
+  "revision": "d151dbba753679d221dcfb712857145c471e6ad4",
+  "zenodo": "https://zenodo.org/records/23554066"
+ },
+ "upstream_checked_at": {
+  "revision": "5f06833363159f76955fdeb2aed895bff2dd4615",
+  "date": "2026-11-05"
+ },
+ "rows": [
+  {
+   "bafu_name": "Copper Ion",
+   "bafu_context": "emissions to air / high. pop.",
+   "ours": {
+    "id": "fe0acd60-3ddc-11dd-a7a0-0050c2490048",
+    "label": "copper",
+    "context": "Emissions to air / Emissions to air, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "b872be42d8ffccc81d3a220b6456f29771427244",
+    "label": "Copper, ion",
+    "context": "envi-air-grle-ur10pesq",
+    "source": "ecoinvent algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "b872be42d8ffccc81d3a220b6456f29771427244",
+     "label": "Copper, ion",
+     "source": "ecoinvent algorithm addition",
+     "context": "envi-air-grle-ur10pesq",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "ion vs element: brightway-flows #379, #380, #437 (open)"
+  },
+  {
+   "bafu_name": "Copper Ion",
+   "bafu_context": "emissions to air / unspecified",
+   "ours": {
+    "id": "fe0acd60-3ddc-11dd-a7a0-0050c2490048",
+    "label": "copper",
+    "context": "Emissions to air / Emissions to air, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "a44b272c1a89df277a135ba3b747619726911ba5",
+    "label": "Copper, ion",
+    "context": "envi-air-unkn",
+    "source": "ecoinvent algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "a44b272c1a89df277a135ba3b747619726911ba5",
+     "label": "Copper, ion",
+     "source": "ecoinvent algorithm addition",
+     "context": "envi-air-unkn",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "ion vs element: brightway-flows #379, #380, #437 (open)"
+  },
+  {
+   "bafu_name": "Copper Ion",
+   "bafu_context": "emissions to water / unspecified",
+   "ours": {
+    "id": "4d9a8790-3ddd-11dd-96cf-0050c2490048",
+    "label": "copper",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "0c988396a794b281c0a04992b40373fef5e39769",
+    "label": "Copper, ion",
+    "context": "envi-wate-unkn",
+    "source": "ecoinvent algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "0c988396a794b281c0a04992b40373fef5e39769",
+     "label": "Copper, ion",
+     "source": "ecoinvent algorithm addition",
+     "context": "envi-wate-unkn",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "ion vs element: brightway-flows #379, #380, #437 (open)"
+  }
+ ],
+ "ef31_copper_2plus": {
+  "contexts": [
+   "envi-air-aicrhe",
+   "envi-air-grle-ur10pesq",
+   "envi-air-indr-unkn",
+   "envi-air-lote",
+   "envi-air-mest15me-ru10pesq",
+   "envi-air-unkn",
+   "envi-grou-agri",
+   "envi-grou-noag",
+   "envi-grou-unkn",
+   "envi-wate-lote",
+   "envi-wate-ocea",
+   "envi-wate-suwa",
+   "envi-wate-unkn"
+  ],
+  "cas": [
+   "15158-11-9"
+  ],
+  "alt_labels": [
+   "Copper(II)",
+   "Copper II",
+   "COPPER (II) ION",
+   "Cu(2+)",
+   "Cu(II)",
+   "Cu2+",
+   "copper(2+)",
+   "copper(2+) ion",
+   "copper(II) cation",
+   "copper, ion (Cu2+)",
+   "cupric ion",
+   "Copper divalent ion",
+   "Copper ion (Cu++)",
+   "Copper ion(2+)",
+   "Copper(+2)",
+   "Copper(II) ion",
+   "Cupric cation",
+   "Cupric ion (Cu2+)"
+  ]
+ }
+}

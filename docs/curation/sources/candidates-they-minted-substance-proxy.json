@@ -1,0 +1,982 @@
+{
+ "what": "Consensus contribution candidates, class THEY_MINTED_SUBSTANCE_PROXY",
+ "measured_on": {
+  "release": "brightway-flows 1.1.0",
+  "revision": "d151dbba753679d221dcfb712857145c471e6ad4",
+  "zenodo": "https://zenodo.org/records/23554066"
+ },
+ "upstream_checked_at": {
+  "revision": "5f06833363159f76955fdeb2aed895bff2dd4615",
+  "date": "2026-11-05"
+ },
+ "class": "THEY_MINTED_SUBSTANCE_PROXY",
+ "definition": "consensus minted a flow; we map to an EF flow of a different name",
+ "rows": [
+  {
+   "bafu_name": "1,4-Butanediol",
+   "bafu_context": "emissions to water / river",
+   "ours": {
+    "id": "d3831e86-2272-4c19-9d83-710cd639ba1e",
+    "label": "1,4-butanediol, reaction product with 1-chloro-2,3-epoxypropane",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "754bcd0f80f371abfcfd862f5d4bd9d8bfd63d33",
+    "label": "Butylene Glycol",
+    "context": "envi-wate-rive",
+    "source": "bafu algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "754bcd0f80f371abfcfd862f5d4bd9d8bfd63d33",
+     "label": "Butylene Glycol",
+     "source": "bafu algorithm addition",
+     "context": "envi-wate-rive",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "ours: our proxy is too far (ours to fix)"
+  },
+  {
+   "bafu_name": "Fluoride",
+   "bafu_context": "emissions to water / groundwater",
+   "ours": {
+    "id": "08a91e70-3ddc-11dd-93fd-0050c2490048",
+    "label": "fluoride",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "e662feee1c6d3a94cd3ea77e111a92aa74a97160",
+    "label": "Fluoride(1-)",
+    "context": "envi-wate-unaq",
+    "source": "ecoinvent algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "e662feee1c6d3a94cd3ea77e111a92aa74a97160",
+     "label": "Fluoride(1-)",
+     "source": "ecoinvent algorithm addition",
+     "context": "envi-wate-unaq",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "covered: sub-compartment gap, brightway-flows #159"
+  },
+  {
+   "bafu_name": "Boscalid",
+   "bafu_context": "emissions to soil / agricultural",
+   "ours": {
+    "id": "67f600f6-a63d-4138-ba9f-3d931140e062",
+    "label": "Fungicides, unspecified",
+    "context": "Emissions to soil / Emissions to agricultural soil",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "0bd3aac2083c25f356bc1deeee876e13892b90ca",
+    "label": "Boscalid",
+    "context": "envi-grou-agri",
+    "source": "ecoinvent algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "0bd3aac2083c25f356bc1deeee876e13892b90ca",
+     "label": "Boscalid",
+     "source": "ecoinvent algorithm addition",
+     "context": "envi-grou-agri",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "ours: our proxy is too far (ours to fix)"
+  },
+  {
+   "bafu_name": "Silver-110",
+   "bafu_context": "emissions to water / river",
+   "ours": {
+    "id": "08a91e70-3ddc-11dd-98e0-0050c2490048",
+    "label": "silver-110",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "06a529e317baf4f6c8b917679ae6fa75854c1961",
+    "label": "Silver-110m",
+    "context": "envi-wate-rive",
+    "source": "bafu algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "06a529e317baf4f6c8b917679ae6fa75854c1961",
+     "label": "Silver-110m",
+     "source": "bafu algorithm addition",
+     "context": "envi-wate-rive",
+     "conversion_multiplier": 0.001,
+     "conversion_basis": "unit-table"
+    },
+    {
+     "id": "06a529e317baf4f6c8b917679ae6fa75854c1961",
+     "label": "Silver-110m",
+     "source": "bafu algorithm addition",
+     "context": "envi-wate-rive",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "covered: sub-compartment gap, brightway-flows #159"
+  },
+  {
+   "bafu_name": "Copper Ion",
+   "bafu_context": "emissions to air / high. pop.",
+   "ours": {
+    "id": "fe0acd60-3ddc-11dd-a7a0-0050c2490048",
+    "label": "copper",
+    "context": "Emissions to air / Emissions to air, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "b872be42d8ffccc81d3a220b6456f29771427244",
+    "label": "Copper, ion",
+    "context": "envi-air-grle-ur10pesq",
+    "source": "ecoinvent algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "b872be42d8ffccc81d3a220b6456f29771427244",
+     "label": "Copper, ion",
+     "source": "ecoinvent algorithm addition",
+     "context": "envi-air-grle-ur10pesq",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "ion vs element: brightway-flows #379, #380, #437 (open)"
+  },
+  {
+   "bafu_name": "Cerium",
+   "bafu_context": "emissions to water / river",
+   "ours": {
+    "id": "e8b310e9-ee6a-43e2-b33e-101e6aa5080a",
+    "label": "cerium(3+)",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "48cf3791ed9e406469c00cb261b07c53a712a4d5",
+    "label": "Cerium",
+    "context": "envi-wate-rive",
+    "source": "bafu algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "48cf3791ed9e406469c00cb261b07c53a712a4d5",
+     "label": "Cerium",
+     "source": "bafu algorithm addition",
+     "context": "envi-wate-rive",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "covered: sub-compartment gap, brightway-flows #159"
+  },
+  {
+   "bafu_name": "Hydrogen Cyanide",
+   "bafu_context": "emissions to water / river",
+   "ours": {
+    "id": "fe0acd60-3ddc-11dd-a6c0-0050c2490048",
+    "label": "hydrocyanic acid",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "606e78fef3e5d412e44f602e9c0ed4b8e19262f6",
+    "label": "Hydrogen cyanide",
+    "context": "envi-wate-rive",
+    "source": "bafu algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "606e78fef3e5d412e44f602e9c0ed4b8e19262f6",
+     "label": "Hydrogen cyanide",
+     "source": "bafu algorithm addition",
+     "context": "envi-wate-rive",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "covered: sub-compartment gap, brightway-flows #159"
+  },
+  {
+   "bafu_name": "Iron, Ion",
+   "bafu_context": "emissions to water / unspecified",
+   "ours": {
+    "id": "08a91e70-3ddc-11dd-9597-0050c2490048",
+    "label": "iron",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "384a7d4000e351b8cab39798dcf35f8ec41a61b9",
+    "label": "Iron, ion",
+    "context": "envi-wate-unkn",
+    "source": "ecoinvent algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "384a7d4000e351b8cab39798dcf35f8ec41a61b9",
+     "label": "Iron, ion",
+     "source": "ecoinvent algorithm addition",
+     "context": "envi-wate-unkn",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "ion vs element: brightway-flows #379, #380, #437 (open)"
+  },
+  {
+   "bafu_name": "Butene",
+   "bafu_context": "emissions to water / river",
+   "ours": {
+    "id": "f2145ff0-6555-11dd-ad8b-0800200c9a66",
+    "label": "1-butene",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "9abedf5368e0d7a4b3a4982b8587dbcd5fe10b6e",
+    "label": "Butene",
+    "context": "envi-wate-rive",
+    "source": "bafu algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "9abedf5368e0d7a4b3a4982b8587dbcd5fe10b6e",
+     "label": "Butene",
+     "source": "bafu algorithm addition",
+     "context": "envi-wate-rive",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "covered: sub-compartment gap, brightway-flows #159"
+  },
+  {
+   "bafu_name": "Iodide",
+   "bafu_context": "emissions to water / river",
+   "ours": {
+    "id": "fe0acd60-3ddc-11dd-a7bb-0050c2490048",
+    "label": "iodide",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "922a5c503c9c2879f597dc61e645dd846ce7b5cb",
+    "label": "Iodide(1-)",
+    "context": "envi-wate-rive",
+    "source": "bafu algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "922a5c503c9c2879f597dc61e645dd846ce7b5cb",
+     "label": "Iodide(1-)",
+     "source": "bafu algorithm addition",
+     "context": "envi-wate-rive",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "covered: sub-compartment gap, brightway-flows #159"
+  },
+  {
+   "bafu_name": "Octene (mixture Of Isomers)",
+   "bafu_context": "emissions to air / unspecified",
+   "ours": {
+    "id": "9c47329d-b160-4b5d-b9d9-ef9f33253ebf",
+    "label": "octene",
+    "context": "Emissions to air / Emissions to air, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "89ad099341b812127d5d4c974b787bab54469247",
+    "label": "Octene (mixture Of Isomers)",
+    "context": "envi-air-unkn",
+    "source": "bafu algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "89ad099341b812127d5d4c974b787bab54469247",
+     "label": "Octene (mixture Of Isomers)",
+     "source": "bafu algorithm addition",
+     "context": "envi-air-unkn",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "not found upstream; same mechanism as upstream's pending N-octane expectation (no CAS on the BAFU row, EF octene 25377-83-7): a further example for it, not a new issue"
+  },
+  {
+   "bafu_name": "Fluoride",
+   "bafu_context": "emissions to water / lake",
+   "ours": {
+    "id": "08a91e70-3ddc-11dd-93fd-0050c2490048",
+    "label": "fluoride",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "62c6e8904217c9d1a2ef8bdea0b2d87629bb1ebb",
+    "label": "Fluoride(1-)",
+    "context": "envi-wate-lake",
+    "source": "bafu algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "62c6e8904217c9d1a2ef8bdea0b2d87629bb1ebb",
+     "label": "Fluoride(1-)",
+     "source": "bafu algorithm addition",
+     "context": "envi-wate-lake",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "covered: sub-compartment gap, brightway-flows #159"
+  },
+  {
+   "bafu_name": "Chloride",
+   "bafu_context": "emissions to water / groundwater",
+   "ours": {
+    "id": "08a91e70-3ddc-11dd-950a-0050c2490048",
+    "label": "chloride",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "ce39a3b4ee283c1f8e2777a97ec452f001b2be35",
+    "label": "Chloride(1-)",
+    "context": "envi-wate-unaq",
+    "source": "ecoinvent algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "ce39a3b4ee283c1f8e2777a97ec452f001b2be35",
+     "label": "Chloride(1-)",
+     "source": "ecoinvent algorithm addition",
+     "context": "envi-wate-unaq",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "covered: sub-compartment gap, brightway-flows #159"
+  },
+  {
+   "bafu_name": "Copper Ion",
+   "bafu_context": "emissions to air / unspecified",
+   "ours": {
+    "id": "fe0acd60-3ddc-11dd-a7a0-0050c2490048",
+    "label": "copper",
+    "context": "Emissions to air / Emissions to air, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "a44b272c1a89df277a135ba3b747619726911ba5",
+    "label": "Copper, ion",
+    "context": "envi-air-unkn",
+    "source": "ecoinvent algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "a44b272c1a89df277a135ba3b747619726911ba5",
+     "label": "Copper, ion",
+     "source": "ecoinvent algorithm addition",
+     "context": "envi-air-unkn",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "ion vs element: brightway-flows #379, #380, #437 (open)"
+  },
+  {
+   "bafu_name": "Fluoride",
+   "bafu_context": "emissions to soil / industrial",
+   "ours": {
+    "id": "fe0acd60-3ddc-11dd-a5e9-0050c2490048",
+    "label": "fluoride",
+    "context": "Emissions to soil / Emissions to soil, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "0419ca6f45d96c823d1b218f7098c942532b4681",
+    "label": "Fluoride(1-)",
+    "context": "envi-grou-indu",
+    "source": "ecoinvent algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "0419ca6f45d96c823d1b218f7098c942532b4681",
+     "label": "Fluoride(1-)",
+     "source": "ecoinvent algorithm addition",
+     "context": "envi-grou-indu",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "covered: sub-compartment gap, brightway-flows #159"
+  },
+  {
+   "bafu_name": "Carbon Monoxide",
+   "bafu_context": "emissions to air / unspecified",
+   "ours": {
+    "id": "08a91e70-3ddc-11dd-924e-0050c2490048",
+    "label": "carbon monoxide (fossil)",
+    "context": "Emissions to air / Emissions to air, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "b73b47ec9b0d69df24d05c5d2d2d3ea6023c2554",
+    "label": "Carbon Monoxide",
+    "context": "envi-air-unkn",
+    "source": "bafu algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "b73b47ec9b0d69df24d05c5d2d2d3ea6023c2554",
+     "label": "Carbon Monoxide",
+     "source": "bafu algorithm addition",
+     "context": "envi-air-unkn",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "defensible upstream choice: unqualified CO, EF carries only fossil/biogenic/land-use rows; our fossil mapping is our policy"
+  },
+  {
+   "bafu_name": "Fluoride",
+   "bafu_context": "emissions to water / river",
+   "ours": {
+    "id": "08a91e70-3ddc-11dd-93fd-0050c2490048",
+    "label": "fluoride",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "95c26b19c58ef036375d9531fb36286d254c506b",
+    "label": "Fluoride(1-)",
+    "context": "envi-wate-rive",
+    "source": "bafu algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "95c26b19c58ef036375d9531fb36286d254c506b",
+     "label": "Fluoride(1-)",
+     "source": "bafu algorithm addition",
+     "context": "envi-wate-rive",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "covered: sub-compartment gap, brightway-flows #159"
+  },
+  {
+   "bafu_name": "Silver-110",
+   "bafu_context": "emissions to water / river",
+   "ours": {
+    "id": "08a91e70-3ddc-11dd-98e0-0050c2490048",
+    "label": "silver-110",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "06a529e317baf4f6c8b917679ae6fa75854c1961",
+    "label": "Silver-110m",
+    "context": "envi-wate-rive",
+    "source": "bafu algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "06a529e317baf4f6c8b917679ae6fa75854c1961",
+     "label": "Silver-110m",
+     "source": "bafu algorithm addition",
+     "context": "envi-wate-rive",
+     "conversion_multiplier": 0.001,
+     "conversion_basis": "unit-table"
+    },
+    {
+     "id": "06a529e317baf4f6c8b917679ae6fa75854c1961",
+     "label": "Silver-110m",
+     "source": "bafu algorithm addition",
+     "context": "envi-wate-rive",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "covered: sub-compartment gap, brightway-flows #159"
+  },
+  {
+   "bafu_name": "Acrylate",
+   "bafu_context": "emissions to water / river",
+   "ours": {
+    "id": "f2f87209-0d00-4c96-a3a3-919cf5190b22",
+    "label": "Acrylate, ion",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "b893d3dafe4e25ea5b4074a9924dfd222e0969f0",
+    "label": "Acrylate",
+    "context": "envi-wate-rive",
+    "source": "bafu algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "b893d3dafe4e25ea5b4074a9924dfd222e0969f0",
+     "label": "Acrylate",
+     "source": "bafu algorithm addition",
+     "context": "envi-wate-rive",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "covered: sub-compartment gap, brightway-flows #159"
+  },
+  {
+   "bafu_name": "1,1,1-Trichloroethane",
+   "bafu_context": "emissions to water / river",
+   "ours": {
+    "id": "4d9a8790-3ddd-11dd-925c-0050c2490048",
+    "label": "HCFC-140",
+    "context": "Emissions to air / Emissions to non-urban air or from high stacks",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "0b25be683af6cfe2956397237fda4cdcdbff365d",
+    "label": "1,1,1-Trichloroethane",
+    "context": "envi-wate-rive",
+    "source": "bafu algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "0b25be683af6cfe2956397237fda4cdcdbff365d",
+     "label": "1,1,1-Trichloroethane",
+     "source": "bafu algorithm addition",
+     "context": "envi-wate-rive",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "covered: sub-compartment gap, brightway-flows #159"
+  },
+  {
+   "bafu_name": "Copper Ion",
+   "bafu_context": "emissions to water / unspecified",
+   "ours": {
+    "id": "4d9a8790-3ddd-11dd-96cf-0050c2490048",
+    "label": "copper",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "0c988396a794b281c0a04992b40373fef5e39769",
+    "label": "Copper, ion",
+    "context": "envi-wate-unkn",
+    "source": "ecoinvent algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "0c988396a794b281c0a04992b40373fef5e39769",
+     "label": "Copper, ion",
+     "source": "ecoinvent algorithm addition",
+     "context": "envi-wate-unkn",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "ion vs element: brightway-flows #379, #380, #437 (open)"
+  },
+  {
+   "bafu_name": "Bromide",
+   "bafu_context": "emissions to water / river",
+   "ours": {
+    "id": "3e4cdb50-6556-11dd-ad8b-0800200c9a66",
+    "label": "bromide",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "d9bfa5304b7ea58d828b00aef3cd4b1984b29152",
+    "label": "Bromide(1-)",
+    "context": "envi-wate-rive",
+    "source": "bafu algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "d9bfa5304b7ea58d828b00aef3cd4b1984b29152",
+     "label": "Bromide(1-)",
+     "source": "bafu algorithm addition",
+     "context": "envi-wate-rive",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "covered: sub-compartment gap, brightway-flows #159"
+  },
+  {
+   "bafu_name": "Barite",
+   "bafu_context": "emissions to water / ocean",
+   "ours": {
+    "id": "bdc57974-a34a-4d6d-bdea-37e0a269eaaa",
+    "label": "barium sulphate",
+    "context": "Emissions to water / Emissions to fresh water",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "aac06ba4d0204f820ee7643620876720af9cd9db",
+    "label": "Barite",
+    "context": "envi-wate-ocea",
+    "source": "bafu algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "aac06ba4d0204f820ee7643620876720af9cd9db",
+     "label": "Barite",
+     "source": "bafu algorithm addition",
+     "context": "envi-wate-ocea",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "deliberate: kept on BAFU's own number (docs/reference/harmonisation-steps.md); expectation 0512 says it wants a curator"
+  },
+  {
+   "bafu_name": "Iodide",
+   "bafu_context": "emissions to water / groundwater",
+   "ours": {
+    "id": "fe0acd60-3ddc-11dd-a7bb-0050c2490048",
+    "label": "iodide",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "c8ecc92a0d45e7a594280c9042b3206c4baa02c3",
+    "label": "Iodide(1-)",
+    "context": "envi-wate-unaq",
+    "source": "ecoinvent algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "c8ecc92a0d45e7a594280c9042b3206c4baa02c3",
+     "label": "Iodide(1-)",
+     "source": "ecoinvent algorithm addition",
+     "context": "envi-wate-unaq",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "covered: sub-compartment gap, brightway-flows #159"
+  },
+  {
+   "bafu_name": "Bromide",
+   "bafu_context": "emissions to soil / industrial",
+   "ours": {
+    "id": "3e4cdb4e-6556-11dd-ad8b-0800200c9a66",
+    "label": "bromide",
+    "context": "Emissions to soil / Emissions to soil, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "bb1d34bd3cc97f3a63b9bc3dec2e3bc18cb215ed",
+    "label": "Bromide(1-)",
+    "context": "envi-grou-indu",
+    "source": "bafu algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "bb1d34bd3cc97f3a63b9bc3dec2e3bc18cb215ed",
+     "label": "Bromide(1-)",
+     "source": "bafu algorithm addition",
+     "context": "envi-grou-indu",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "covered: sub-compartment gap, brightway-flows #159"
+  },
+  {
+   "bafu_name": "Chloride",
+   "bafu_context": "emissions to water / lake",
+   "ours": {
+    "id": "08a91e70-3ddc-11dd-950a-0050c2490048",
+    "label": "chloride",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "3e20e4e7f6f38a4e27bbefae2d016d502d40f4f6",
+    "label": "Chloride(1-)",
+    "context": "envi-wate-lake",
+    "source": "bafu algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "3e20e4e7f6f38a4e27bbefae2d016d502d40f4f6",
+     "label": "Chloride(1-)",
+     "source": "bafu algorithm addition",
+     "context": "envi-wate-lake",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "covered: sub-compartment gap, brightway-flows #159"
+  },
+  {
+   "bafu_name": "Zoxamide",
+   "bafu_context": "emissions to soil / agricultural",
+   "ours": {
+    "id": "67f600f6-a63d-4138-ba9f-3d931140e062",
+    "label": "Fungicides, unspecified",
+    "context": "Emissions to soil / Emissions to agricultural soil",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "df5ff2ef2dc1a23708774229912ac5e955b5d176",
+    "label": "Zoxamide",
+    "context": "envi-grou-agri",
+    "source": "ecoinvent algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "df5ff2ef2dc1a23708774229912ac5e955b5d176",
+     "label": "Zoxamide",
+     "source": "ecoinvent algorithm addition",
+     "context": "envi-grou-agri",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "ours: our proxy is too far (ours to fix)"
+  },
+  {
+   "bafu_name": "Ethane, 1,1,2-trifluoro-, HFC-143",
+   "bafu_context": "emissions to air / unspecified",
+   "ours": {
+    "id": "08a91e70-3ddc-11dd-9305-0050c2490048",
+    "label": "HFC-143",
+    "context": "Emissions to air / Emissions to air, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "ca3d19a6bb115359dcbd7c3dc9b31076810f8639",
+    "label": "Ethane, 1,1,2-trifluoro-, HFC-143",
+    "context": "envi-air-unkn",
+    "source": "bafu algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "ca3d19a6bb115359dcbd7c3dc9b31076810f8639",
+     "label": "Ethane, 1,1,2-trifluoro-, HFC-143",
+     "source": "bafu algorithm addition",
+     "context": "envi-air-unkn",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "listed in brightway-flows #71 (open): Stepwise carries 430-66-0, reaches 1,1,2-Trifluoroethane"
+  },
+  {
+   "bafu_name": "Methane, Tetrachloro-, CFC-10",
+   "bafu_context": "emissions to water / river",
+   "ours": {
+    "id": "fe0acd60-3ddc-11dd-a92d-0050c2490048",
+    "label": "CFC-10",
+    "context": "Emissions to water / Emissions to fresh water",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "0e7af0419eb7ccdfa6bfcb0821c1dbf49faf261e",
+    "label": "Carbon tetrachloride",
+    "context": "envi-wate-rive",
+    "source": "bafu algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "0e7af0419eb7ccdfa6bfcb0821c1dbf49faf261e",
+     "label": "Carbon tetrachloride",
+     "source": "bafu algorithm addition",
+     "context": "envi-wate-rive",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "covered: sub-compartment gap, brightway-flows #159"
+  },
+  {
+   "bafu_name": "Benzene (as BTEX)",
+   "bafu_context": "emissions to water / unspecified",
+   "ours": {
+    "id": "4d9a8790-3ddd-11dd-9cc9-0050c2490048",
+    "label": "benzene",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "e302b54fe2fd12ef7b0048fd0669dbf286adda2d",
+    "label": "Benzene (as BTEX)",
+    "context": "envi-wate-unkn",
+    "source": "bafu algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "e302b54fe2fd12ef7b0048fd0669dbf286adda2d",
+     "label": "Benzene (as BTEX)",
+     "source": "bafu algorithm addition",
+     "context": "envi-wate-unkn",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "deliberate upstream choice: an aggregate measurement, docs/reference/semantic-types.md"
+  },
+  {
+   "bafu_name": "Acrylonitrile",
+   "bafu_context": "emissions to water / river",
+   "ours": {
+    "id": "08a91e70-3ddc-11dd-9df6-0050c2490048",
+    "label": "acryolonitrile",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "b0391ac7cc045842ad4effc2c43c54436fa1a0c8",
+    "label": "Acrylonitrile",
+    "context": "envi-wate-rive",
+    "source": "bafu algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "b0391ac7cc045842ad4effc2c43c54436fa1a0c8",
+     "label": "Acrylonitrile",
+     "source": "bafu algorithm addition",
+     "context": "envi-wate-rive",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "covered: sub-compartment gap, brightway-flows #159"
+  },
+  {
+   "bafu_name": "N-octane",
+   "bafu_context": "emissions to air / unspecified",
+   "ours": {
+    "id": "08a91e70-3ddc-11dd-9734-0050c2490048",
+    "label": "octane",
+    "context": "Emissions to air / Emissions to air, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "f82507b2e2a0e6e79dd6d83495c9edfc9fff56d0",
+    "label": "N-octane",
+    "context": "envi-air-unkn",
+    "source": "bafu algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "f82507b2e2a0e6e79dd6d83495c9edfc9fff56d0",
+     "label": "N-octane",
+     "source": "bafu algorithm addition",
+     "context": "envi-air-unkn",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "pending expectation 0396-bafu-n-octane-reaches-the-octane-the-list-has, upstream's own (expectations/0396-created-substances-know-their-element.json on origin/main; the number coincides with our PR #396, it is not part of it): deliberately not matched by name, needs a primary-name registry lookup"
+  },
+  {
+   "bafu_name": "Chloride",
+   "bafu_context": "emissions to soil / industrial",
+   "ours": {
+    "id": "3e4c8d3d-6556-11dd-ad8b-0800200c9a66",
+    "label": "chloride",
+    "context": "Emissions to soil / Emissions to agricultural soil",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "931ed596dd05ba531f9cfedf0f74986e7375d482",
+    "label": "Chloride(1-)",
+    "context": "envi-grou-indu",
+    "source": "ecoinvent algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "931ed596dd05ba531f9cfedf0f74986e7375d482",
+     "label": "Chloride(1-)",
+     "source": "ecoinvent algorithm addition",
+     "context": "envi-grou-indu",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "covered: sub-compartment gap, brightway-flows #159"
+  },
+  {
+   "bafu_name": "Chloride",
+   "bafu_context": "emissions to water / river",
+   "ours": {
+    "id": "08a91e70-3ddc-11dd-950a-0050c2490048",
+    "label": "chloride",
+    "context": "Emissions to water / Emissions to water, unspecified",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "4bf6acc50038bbff355012ed3203306e0ad3d8fa",
+    "label": "Chloride(1-)",
+    "context": "envi-wate-rive",
+    "source": "bafu algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "4bf6acc50038bbff355012ed3203306e0ad3d8fa",
+     "label": "Chloride(1-)",
+     "source": "bafu algorithm addition",
+     "context": "envi-wate-rive",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "covered: sub-compartment gap, brightway-flows #159"
+  },
+  {
+   "bafu_name": "Butyl Acetate",
+   "bafu_context": "emissions to water / river",
+   "ours": {
+    "id": "4d9a8790-3ddd-11dd-97e3-0050c2490048",
+    "label": "n-butyl-acetate",
+    "context": "Emissions to water / Emissions to fresh water",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "15a42e54044be1383c3484c28c02397cc1d83809",
+    "label": "Butyl acetate",
+    "context": "envi-wate-rive",
+    "source": "bafu algorithm addition"
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "15a42e54044be1383c3484c28c02397cc1d83809",
+     "label": "Butyl acetate",
+     "source": "bafu algorithm addition",
+     "context": "envi-wate-rive",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ],
+   "outcome": "covered: sub-compartment gap, brightway-flows #159"
+  }
+ ],
+ "counts": {
+  "rows": 35,
+  "consensus_target_changed_since_run_20260904": 0,
+  "consensus_now_equals_ours": 0
+ }
+}

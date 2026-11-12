@@ -1,0 +1,137 @@
+{
+ "what": "Consensus contribution candidates, class COMPARTMENT_CONFLICT",
+ "measured_on": {
+  "release": "brightway-flows 1.1.0",
+  "revision": "d151dbba753679d221dcfb712857145c471e6ad4",
+  "zenodo": "https://zenodo.org/records/23554066"
+ },
+ "upstream_checked_at": {
+  "revision": "5f06833363159f76955fdeb2aed895bff2dd4615",
+  "date": "2026-11-05"
+ },
+ "class": "COMPARTMENT_CONFLICT",
+ "definition": "their EF target's top compartment differs from our BAFU flow's",
+ "rows": [
+  {
+   "bafu_name": "Dithianon",
+   "bafu_context": null,
+   "ours": {
+    "id": null,
+    "label": null,
+    "context": null,
+    "characterised": null
+   },
+   "consensus_at_run_20260904": {
+    "id": "904ce552-a7dd-4a9f-8770-dbe0f587051f",
+    "label": "dithianon",
+    "context": "Emissions to soil / Emissions to agricultural soil",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "904ce552-a7dd-4a9f-8770-dbe0f587051f",
+     "label": "Dithianon",
+     "source": "EF 3.1",
+     "context": "envi-grou-agri",
+     "conversion_multiplier": null,
+     "conversion_basis": null,
+     "bafu_context": "emissionstosoilagricultural"
+    }
+   ],
+   "our_compartment": "water",
+   "consensus_compartment": "soil"
+  },
+  {
+   "bafu_name": "Dithianon",
+   "bafu_context": null,
+   "ours": {
+    "id": null,
+    "label": null,
+    "context": null,
+    "characterised": null
+   },
+   "consensus_at_run_20260904": {
+    "id": "904ce552-a7dd-4a9f-8770-dbe0f587051f",
+    "label": "dithianon",
+    "context": "Emissions to soil / Emissions to agricultural soil",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "904ce552-a7dd-4a9f-8770-dbe0f587051f",
+     "label": "Dithianon",
+     "source": "EF 3.1",
+     "context": "envi-grou-agri",
+     "conversion_multiplier": null,
+     "conversion_basis": null,
+     "bafu_context": "emissionstosoilagricultural"
+    }
+   ],
+   "our_compartment": "air",
+   "consensus_compartment": "soil"
+  },
+  {
+   "bafu_name": "Metalaxyl",
+   "bafu_context": null,
+   "ours": {
+    "id": null,
+    "label": null,
+    "context": null,
+    "characterised": null
+   },
+   "consensus_at_run_20260904": {
+    "id": "fe0acd60-3ddc-11dd-a8ce-0050c2490048",
+    "label": "metalaxil",
+    "context": "Emissions to soil / Emissions to agricultural soil",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "fe0acd60-3ddc-11dd-a8ce-0050c2490048",
+     "label": "Metalaxyl",
+     "source": "EF 3.1",
+     "context": "envi-grou-agri",
+     "conversion_multiplier": null,
+     "conversion_basis": null,
+     "bafu_context": "emissionstosoilagricultural"
+    }
+   ],
+   "our_compartment": "water",
+   "consensus_compartment": "soil"
+  },
+  {
+   "bafu_name": "Metalaxyl",
+   "bafu_context": null,
+   "ours": {
+    "id": null,
+    "label": null,
+    "context": null,
+    "characterised": null
+   },
+   "consensus_at_run_20260904": {
+    "id": "fe0acd60-3ddc-11dd-a8ce-0050c2490048",
+    "label": "metalaxil",
+    "context": "Emissions to soil / Emissions to agricultural soil",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "fe0acd60-3ddc-11dd-a8ce-0050c2490048",
+     "label": "Metalaxyl",
+     "source": "EF 3.1",
+     "context": "envi-grou-agri",
+     "conversion_multiplier": null,
+     "conversion_basis": null,
+     "bafu_context": "emissionstosoilagricultural"
+    }
+   ],
+   "our_compartment": "air",
+   "consensus_compartment": "soil"
+  }
+ ],
+ "counts": {
+  "rows": 4,
+  "consensus_target_changed_since_run_20260904": 0,
+  "consensus_now_equals_ours": 0
+ }
+}

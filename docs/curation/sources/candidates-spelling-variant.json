@@ -1,0 +1,47 @@
+{
+ "what": "Consensus contribution candidates, class SPELLING_VARIANT",
+ "measured_on": {
+  "release": "brightway-flows 1.1.0",
+  "revision": "d151dbba753679d221dcfb712857145c471e6ad4",
+  "zenodo": "https://zenodo.org/records/23554066"
+ },
+ "upstream_checked_at": {
+  "revision": "5f06833363159f76955fdeb2aed895bff2dd4615",
+  "date": "2026-11-05"
+ },
+ "class": "SPELLING_VARIANT",
+ "definition": "different EF names bridged by a consensus altLabel — same substance",
+ "rows": [
+  {
+   "bafu_name": "Iodine",
+   "bafu_context": "resources / in water",
+   "ours": {
+    "id": "fe0acd60-3ddc-11dd-a7c1-0050c2490048",
+    "label": "iodine",
+    "context": "Resources from ground / Non-renewable element resources from ground",
+    "characterised": true
+   },
+   "consensus_at_run_20260904": {
+    "id": "369db7a5-dca8-4738-beec-54f8fb85c603",
+    "label": "Iodine, 0.03% in water",
+    "context": "Resources from water / Non-renewable element resources from water",
+    "source": null
+   },
+   "consensus_in_1_1_0": [
+    {
+     "id": "369db7a5-dca8-4738-beec-54f8fb85c603",
+     "label": "Iodine",
+     "source": "EF 3.1",
+     "context": "reso-wate",
+     "conversion_multiplier": null,
+     "conversion_basis": null
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "rows": 1,
+  "consensus_target_changed_since_run_20260904": 0,
+  "consensus_now_equals_ours": 0
+ }
+}
