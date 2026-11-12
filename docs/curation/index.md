@@ -149,10 +149,10 @@ where a value came from and what is still missing before anyone could accept it.
 
 ## Reading the local preview
 
-The register in this repository, `docs/curation/register.json`, holds 32
+The register in this repository, `docs/curation/register.json`, holds 33
 cases: 13 finding-class records, one for each page of [What we have
-found](../findings/index.md), and 19 individual cases: 5 chosen as public
-examples, and 14 in the collection *Contributed consensus findings*, each with
+found](../findings/index.md), and 20 individual cases: 5 chosen as public
+examples, and 15 in the collection *Contributed consensus findings*, each with
 its evidence snapshot under `docs/curation/sources/`, measured on the 1.1.0
 release. Those are the only counts on these pages that come from this
 repository. Every other count in the dated reports — records in a bundle,
