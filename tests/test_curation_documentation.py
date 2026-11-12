@@ -51,14 +51,26 @@ def test_original_upstream_cases_are_visible_with_attribution_and_withdrawal(
     app, register
 ):
     expected = [c for c in register.cases if c.origin != curation.Origin.FINDING_CLASS]
+    # The findings overview shows the cases that cite a findings page; contributed
+    # cases cite their own evidence snapshots, so every case is checked in the
+    # unfiltered case list instead.
+    in_findings = {
+        c.id
+        for c in expected
+        if any(s.startswith("findings/") for s in curation.documentation_slugs(c, DOCS))
+    }
     client = app.test_client()
     overview = client.get("/docs/findings").text
     browser = client.get("/curation/?document=findings/index&view=individual").text
-    assert {c.id for c in expected} == set(
-        re.findall(r'data-case-row="([^"]+)"', browser)
+    everything = client.get("/curation/?view=individual").text
+    assert in_findings, "the original upstream cases cite findings pages"
+    assert in_findings == set(re.findall(r'data-case-row="([^"]+)"', browser))
+    assert {c.id for c in expected} <= set(
+        re.findall(r'data-case-row="([^"]+)"', everything)
     )
     for case in expected:
-        assert f"/curation/cases/{case.id}" in overview
+        if case.id in in_findings:
+            assert f"/curation/cases/{case.id}" in overview
         detail = client.get(f"/curation/cases/{case.id}")
         assert detail.status_code == 200
         for proposal in case.proposals:
