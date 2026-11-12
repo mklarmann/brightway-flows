@@ -180,7 +180,7 @@ changes a method or records consumer adoption.
 The original intake register and verification procedure are frozen with the
 receipt. References point to retained generations, so later edits to the live
 Curation register do not replace the earlier evidence. The lowercase-ID reader
-change was merged in [Workbench !531](https://gitlab.com/eos-lci/lci-workbench/-/merge_requests/531).
+change was merged in Workbench !531 (internal repository, not public).
 The original private intake retains its reviewed candidate pin. A separate
 merged-reader check (evidence `workbench-case-id-merged-history`)
 replays the complete private history through the exact merged source: every
