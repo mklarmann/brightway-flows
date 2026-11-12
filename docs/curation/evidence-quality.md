@@ -89,7 +89,7 @@ The audit writes a sibling `provenance-audit.json` beside the chosen register:
 ```sh
 uv run python tools/audit_curation_provenance.py \
   --register /path/to/register.json \
-  --repository https://gitlab.com/eos-lci/lci-workbench=/path/to/workbench
+  --repository <repository-url>=/path/to/checkout
 ```
 
 It compares literals without executing source code, exact historical JSON rows,

@@ -326,7 +326,7 @@ At 4bec1691, the registrar resolves native codes to project IDs, refuses empty/a
 **Recovered original evidence**
 
 - **receiving project identity:** Recovered BAFU build manifest dated 2026-09-29T04:50:42+00:00, importer 0.1.10, content_sha256 045764a2d858…. It records release/raw identities, corrections and measured counts. The catalogue contract says content identity covers no method; this manifest is not an EF/GLAM factor-value readback.
-- **application observations:** The independently preserved 9 October EDB_BAFU water census is not clean (2,040 roots exceed balance). The EF oracle baseline retains per-category aggregate ratios, including PM 1.868154 and freshwater ecotoxicity 2.799344; these are historical accepted comparison baselines, not universal accuracy or current application receipts.
+- **application observations:** The independently preserved 9 October water census of a downstream application project is not clean (roots exceed balance). The EF oracle baseline retains per-category aggregate ratios, including PM 1.868154 and freshwater ecotoxicity 2.799344; these are historical accepted comparison baselines, not universal accuracy or current application receipts.
 
 **Still required**
 

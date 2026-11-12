@@ -3,7 +3,7 @@
 !!! note "This page is about a consumer of this list, not about this list"
 
     What follows traces the two BAFU titanium-dioxide rows through the
-    **external Workbench path** — the EDB_BAFU, bafu_2026 and bafu_fresh
+    **external Workbench path** — a downstream application project, bafu_2026 and bafu_fresh
     Brightway projects and the Workbench's own EF 3.1 characterisation
     overlay — and finds that path applying the oxide-to-metal factor zero
     times. **This project is not that path.** Here the two rows `TiO2, 54% in
@@ -59,7 +59,7 @@ and post-link captures retain the original amount; neither observation is in
 the physical-unit conversion ledger (evidence `titanium-catalog-pilot-captures`).
 
 Eight stored exchanges were read: two in the `bafu_2026` project's `bafu_2026`
-database, four across EDB_BAFU's separate `bafu_2026` and `bafu` databases, and
+database, four across a downstream application project's separate `bafu_2026` and `bafu` databases, and
 two in the pilot's database. Every stored amount equals its original XML amount
 after float parsing, ratio 1. The stored flow definitions remain TiO₂ in `kg`.
 Each store was read through SQLite `mode=ro`, `query_only=ON`, in a read
@@ -86,7 +86,7 @@ characterisation method applies the correspondence.
 | Original source and import | Two real observations from BAFU dataset 214934 remain TiO₂ in kg; eight stored flows preserve their original amounts. | `titanium-catalog-quantity-trace` |
 | Historical correspondence extract | Retains the target titanium identity but omits the conversion and match-relation fields this list publishes. | `original-evidence-historical-quantity-extract` |
 | Historical EF overlay | Replaying the two targets and the JRC row writes 2.79e-08 on each native TiO₂ code without multiplying by 0.599. | `titanium-workbench-quantity-trace`, `titanium-code-ef31-consensus-overlay` |
-| Current registration | EDB_BAFU and bafu_2026 both register 2.79e-08 in the mineral half and union methods. bafu_fresh has no inspected method under this family, so it supplies no verdict. | `titanium-workbench-quantity-trace` |
+| Current registration | The downstream application project and bafu_2026 both register 2.79e-08 in the mineral half and union methods. bafu_fresh has no inspected method under this family, so it supplies no verdict. | `titanium-workbench-quantity-trace` |
 | Processed inventory and method arrays | Six selected inventory coefficients retain source amounts after exact float32 casting. The processed factors equal float32 casts of the unscaled registered values. | `titanium-processed-quantity-trace` |
 | Direct characterisation | The installed LCIA multiplication, isolated from project opening and supply-chain solving, multiplies these coefficients by the unscaled factors. All twelve once-only checks fail. | `titanium-processed-quantity-trace`, `titanium-processed-procedure` |
 

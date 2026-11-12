@@ -1,7 +1,7 @@
 """Audit source capture for every case without executing scientific corrections.
 
 Example: uv run python tools/audit_curation_provenance.py --register PATH \
-    --repository https://gitlab.com/eos-lci/lci-workbench=CHECKOUT
+    --repository <repository-url>=CHECKOUT
 Only the sibling provenance-audit.json is written. Source content is data;
 Python tables are interpreted with a bounded literal evaluator, never imported.
 """
